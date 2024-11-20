@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ziliangpersonal.github.io/sitemap.xml
+Sitemap: https://NUSLiang.github.io/sitemap.xml
