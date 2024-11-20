@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Welcome to <font color="purple">Z</font>iliang's <font color="blue">I</font>ntelligent <font color="yellow">O</font>pen <font color="purple">N</font>etworks (ZION) of materials science research!
+# Welcome to Ziliang's Intelligent Open Networks (ZION) for boosting Materials Science Research!
 
 Currently a postdoctoral fellow working at Ford-Northwestern Alliance with Prof. [Chris Wolverton](https://sites.google.com/site/wolvertonresearchgroup/). 
 
