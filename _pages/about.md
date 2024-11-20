@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Welcome to Ziliang's Intelligent Open Networks (ZION) for boosting Materials Science Research!
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
