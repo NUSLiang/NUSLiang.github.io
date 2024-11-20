@@ -19,9 +19,9 @@ social: true # includes social icons at the bottom of the page
 ---
 Welcome to Ziliang's Intelligent Open networks (ZION) of materials science research!
 
-Currently a postdoctoral fellow working at Ford-Northwestern Alliance with Prof. Chris Wolverton. 
+Currently a postdoctoral fellow working at Ford-Northwestern Alliance with Prof. [Chris Wolverton](https://sites.google.com/site/wolvertonresearchgroup/). 
 
-Ph.D. obtained from National University of Singapore under supervision of Asst. Prof. Pieremanuele Canepa.
+Ph.D. obtained from National University of Singapore under supervision of Asst. Prof. <a href="https://caneparesearch.org" target="_blank">Pieremanuele Canepa</a>. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
