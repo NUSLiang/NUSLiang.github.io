@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: group_logo.jpg
+  image: group_logo_11192024.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p align="right">Tech. Institute L411</p>
