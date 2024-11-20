@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ziliang's Intelligent Open Networks (ZION) for boosting Materials Science Research.
 
 profile:
   align: right
