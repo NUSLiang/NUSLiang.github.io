@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Welcome to Ziliang's Intelligent Open Networks (ZION) of materials science research1
+Welcome to Ziliang's Intelligent Open Networks (ZION) of materials science research!
 
 Currently a postdoctoral fellow working at Ford-Northwestern Alliance with Prof. Chris Wolverton. 
 
