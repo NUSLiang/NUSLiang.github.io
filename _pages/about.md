@@ -9,15 +9,15 @@ profile:
   image: group_logo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p align="center">Tech. Institute L411</p>
-    <p align="center">2145 Sheridan Road</p>
-    <p align="center">Evanston, IL 60208, USA</p>
+    <p align="right">Tech. Institute L411</p>
+    <p align="right">2145 Sheridan Road</p>
+    <p align="right">Evanston, IL 60208, USA</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Welcome to Ziliang's intelligent open networks (Zion) of materials science research!
+Welcome to Ziliang's Intelligent Open networks (ZION) of materials science research!
 
 Currently a postdoctoral fellow working at Ford-Northwestern Alliance with Prof. Chris Wolverton. 
 
