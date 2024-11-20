@@ -1,7 +1,7 @@
 ---
 permalink: /members/
 layout: page
-title: Research
+title: Members
 description: ""
 comments: true
 modified: 2024-07-08
