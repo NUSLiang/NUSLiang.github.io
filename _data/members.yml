@@ -14,14 +14,32 @@
     Third, I am a <strong>neuroethicist</strong>, working alongside other clinicians,
     researchers, and policymakers to address the ethical and social implications
     of changes in decision-making due to altered brain function.
+    <br>
+    <br>
+    I studied philosophy as an undergraduate at UC Berkeley. During medical school here at 
+    UCSF, I took a leave to pursue a PhD in philosophy at NYU, where I studied with Thomas 
+    Nagel and Derek Parfit. After residency training in neurology back at UCSF, I did a 
+    combined fellowship in cognitive neuroscience and neuroimaging with Mark D’Esposito 
+    at UC Berkeley and in behavioral neurology here at the UCSF Memory and Aging Center.
+    <br>
+    <br>
+    Alongside my clinical and research work, I am the Director of UCSF Bioethics and a 
+    member of the the UCSF Medical Center Ethics Committee. Beyond UCSF, I serve on the 
+    Neuroethics Working Group of the National Institutes of Health BRAIN (Brain Research 
+    through Advancing Innovative Neurotechnologies) Multi-Council Working Group, the 
+    American Academy of Neurology’s Ethics, Law and Humanities Committee, and the Board 
+    of Directors of the International Neuroethics Society. I am also a research mentor in 
+    the Association of American Medical Colleges’ Career Development Program for Maximizing 
+    Opportunities for Scientific and Academic Independent Careers (MOSAIC) Scholars 
+    (K99/R00) from diverse backgrounds.
+
+
 
 - name: "Pongpat Putthinun"
   degrees: "PhD"
   image: "assets/img/team_Pongpat-Putthinun.jpg"
   position: "Postdoc"
   email: "pongpat.putthinun@ucsf.edu"
-  website: "" 
-  scholar: ""
   description: >
     Having lived for extended periods in Thailand, Japan, and the United States,
     I gained insight into the diverse healthcare practices and attitudes toward 
@@ -52,8 +70,6 @@
   image: "assets/img/team_Manizhe.jpg"
   position: "MD"
   email: "manizhe.eslamiamirabadi@ucsf.edu"
-  website: "" 
-  scholar: ""
   description: >
     Movements are files of a person’s life, learned, reproduced, and altered as needed.
     My interest in the body as a 'depository of human expressiveness’ led me to a degree

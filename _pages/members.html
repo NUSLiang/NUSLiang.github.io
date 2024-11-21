@@ -9,7 +9,6 @@ nav: true
 nav_order: 4
 ---
 <style>
-    
     .team-container{
         max-width: 930px;
     }
@@ -31,26 +30,38 @@ nav_order: 4
         background-color: #828282;
         border: 0;
     }
+    .header_content h4{
+        padding-bottom: 40px;
+    }
+    .header_content p {
+        padding-bottom: 0px;
+    }
+    .description{
+        padding-top: 20px;
+    }
 </style>
 
 <div class="team-container">
   {% for member in site.data.members %}
     <img src="{{ site.baseurl}}/{{ member.image }}" alt="{{ member.name }}">
     <div>
-        <h4>{{ member.name}}, {{ member.degrees }}</h4>
-        <br>
-        {% if member.email %}
-        <p><i class="fas fa-envelope"></i> <span>  </span> <a style="font-style: italic;" href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-        {% endif %}
-        {% if member.website %}
-        <p><i class="fas fa-link"></i> <span>  </span> <a href="{{ member.website }}" target="_blank">{{ member.website }}</a></p>
-        {% endif %}
-        {% if member.scholar %}
-        <p><i class="fas fa-school"></i> <span>  </span> <a href="{{ member.scholar }}" target="_blank">{{ member.scholar }}</a></p>
+        <div class="header_content">
+            <h4>{{ member.name}}, {{ member.degrees }}</h4>
+            <br>
+            {% if member.email %}
+            <p><i class="fas fa-envelope"></i> <span>  </span> <a style="font-style: italic;" href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+            {% endif %}
+            {% if member.website %}
+            <p><i class="fas fa-link"></i> <span>  </span> <a href="{{ member.website }}" target="_blank">{{ member.website }}</a></p>
+            {% endif %}
+            {% if member.scholar %}
+            <p><i class="fas fa-school"></i> <span>  </span> <a href="{{ member.scholar }}" target="_blank">Scholar Citations</a></p>
+            {% endif %}
+        </div>
         <div class="description">
             <p>{{ member.description | markdownify}}</p>
         </div>
-        {% endif %}
+        
     </div>
     <hr>
   {% endfor %}
