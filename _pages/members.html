@@ -1,0 +1,81 @@
+---
+permalink: /members/
+layout: page
+title: Members
+description: ""
+comments: true
+modified: 2024-07-08
+nav: true
+nav_order: 4
+---
+
+<div class="team-container">
+  {% for member in site.data.members %}
+  <div class="team-member">
+    <img src="{{ site.baseurl }}/{{ member.image  }}" alt="{{ member.name }}">
+    <div class="team-member-content">
+      <h2>{{ member.name }}</h2>
+      <h3>{{ member.degrees }} - {{ member.position }}</h3>
+      {% if member.email %}
+        <p>Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+      {% endif %}
+      {% if member.website %}
+        <p>Website: <a href="{{ member.website }}" target="_blank">{{ member.website }}</a></p>
+      {% endif %}
+      {% if member.twitter %}
+        <p>Twitter: <a href="https://twitter.com/{{ member.twitter }}" target="_blank">@{{ member.twitter }}</a></p>
+      {% endif %}
+      <p>{{ member.description | markdownify }}</p>
+      
+    </div>
+  </div>
+  <hr>
+  {% endfor %}
+</div>
+
+<style>
+  .team-container {
+    max-width: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .team-member {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .team-member img {
+    width: 100%;
+    height: auto;
+  }
+  .team-member-content {
+    padding: 15px;
+  }
+  .team-member h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  .team-member h3 {
+    margin: 0 0 15px;
+    font-size: 1em;
+    color: #777;
+  }
+  .team-member p {
+    margin: 0 0 15px;
+  }
+  .team-member a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  .team-member a:hover {
+    text-decoration: underline;
+  }
+</style>
+

@@ -1,343 +1,74 @@
-- name: Winston Chiong
-  degrees: MD PhD
-  image: team_Winston-ChiongAZ.jpg
-  altimage: 
-  position: Principal Investigator
-  email: winston.chiong (at) ucsf.edu
+- name: "Ziliang Wang"
+  degrees: "MD PhD"
+  image: "assets/img/team_Winston-Chiong.jpg"
+  position: "Principal Investigator"
+  email: "winston.chiong@ucsf.edu"
   twitter: "WinstonChiong"
-  website: https://profiles.ucsf.edu/winston.chiong
-  github: 
-  scholar: jLpCQugAAAAJ&hl
-  orcid: 
-  description: I see myself as having three main jobs, which (I hope) inform one 
-               another. I am a **behavioral neurologist**, and my clinical 
-               practice focuses on Alzheimer's disease, frontotemporal dementia, 
-               and other cognitive disorders of aging. I am also a **cognitive 
-               neuroscientist**, applying observations from clinic to 
-               investigate why patients like mine are vulnerable to making bad 
-               decisions. Third, I am a **neuroethicist**, working alongside 
-               other clinicians, researchers, and policymakers to address the 
-               ethical and social implications of changes in decision-making due 
-               to altered brain function. 
-               
-               
-               I studied philosophy as an undergraduate at UC Berkeley. During 
-               medical school here at UCSF, I took a leave to pursue a PhD in 
-               philosophy at NYU, where I studied with Thomas Nagel and Derek 
-               Parfit. After residency training in neurology back at UCSF, I did 
-               a combined fellowship in cognitive neuroscience and neuroimaging 
-               with [Mark D'Esposito](https://despolab.berkeley.edu){:target="\_blank"} 
-               at UC Berkeley and in behavioral neurology here at the 
-               [UCSF Memory and Aging Center](http://memory.ucsf.edu){:target="\_blank"}.
-              
-              
-              Alongside my clinical and research work, I am the Director 
-              of [UCSF Bioethics](https://bioethics.ucsf.edu){:target="\_blank"} 
-              and a member of the the UCSF Medical Center Ethics Committee. 
-              Beyond UCSF, I serve on the 
-              [Neuroethics Working Group](https://braininitiative.nih.gov/about/neuroethics-working-group){:target="\_blank"} 
-              of the National Institutes of Health BRAIN (Brain Research through 
-              Advancing Innovative Neurotechnologies) Multi-Council Working 
-              Group, the American Academy of Neurology's 
-              [Ethics, Law and Humanities Committee](https://www.aan.com/conferences-community/member-engagement/Learn-About-AAN-Committees/ethics-law-and-humanities-committee/){:target="\_blank"}, 
-              and the 
-              [Board of Directors](https://www.neuroethicssociety.org/board){:target="\_blank"} 
-              of the International Neuroethics Society. I am also a research 
-              mentor in the Association of American Medical Colleges' Career 
-              Development Program for 
-              [Maximizing Opportunities for Scientific and Academic Independent Careers (MOSAIC)](https://www.aamc.org/about-us/mission-areas/medical-research/mosaic-scholars){:target="\_blank"} 
-              Scholars (K99/R00) from diverse backgrounds.
-              
-              
-- name: Clara Sanches
-  degrees: PhD
-  image: team_Clara-Sanches.png
-  altimage: 
-  position: Postdoc
-  email: clara.sanches (at) ucsf.edu
-  twitter:
-  website: 
-  github:
-  scholar: 
-  orcid:
-  description:  Movements are files of a person’s life, learned, reproduced, and 
-                altered as needed. There are external movements, those that make 
-                us act on objects and internal movements, an energy that we use 
-                in space and time. 
-                My interest in the body as a 'depository of human 
-                expressiveness’ led me to a degree in Psychomotor Therapy with a 
-                Master’s specialization in old age and mental health (University 
-                of Lisbon). An enriching experience with an aging population 
-                triggered my interest in old age, 
-                and I realized how much I still had to learn about the 
-                biological and physiological mechanisms of aging and the 
-                disruptions that lead to age-related diseases. 
+  website: "https://profiles.ucsf.edu/winston.chiong"
+  scholar: "https://scholar.google.com/citations?user=jLpCQugAAAAJ&hl=en"
+  description: >
+    I see myself as having three main jobs, which (I hope) inform one another.
+    I am a <strong>behavioral neurologist</strong>, and my clinical practice focuses on
+    Alzheimer's disease, frontotemporal dementia, and other cognitive disorders of aging.
+    I am also a <strong>cognitive neuroscientist</strong>, applying observations from clinic
+    to investigate why patients like mine are vulnerable to making bad decisions.
+    Third, I am a <strong>neuroethicist</strong>, working alongside other clinicians,
+    researchers, and policymakers to address the ethical and social implications
+    of changes in decision-making due to altered brain function.
+
+
+
+- name: "Pongpat Putthinun"
+  degrees: "PhD"
+  image: "assets/img/team_Pongpat-Putthinun.jpg"
+  position: "Postdoc"
+  email: "pongpat.putthinun (at) ucsf.edu"
+  description: >
+    Having lived for extended periods in Thailand, Japan, and the United States,
+    I gained insight into the diverse healthcare practices and attitudes toward 
+    dementia and the disparate resources for diagnosis, treatment and care
+    across borders and demographic groups. I want to use my background in 
+    health economics and the expertise I acquire at UCSF Memory and Aging
+    Center to contribute to the advancement of brain health equity through
+    enhanced public health programs that can provide global benefits.
   
-  
-                My Master in Integrative Biology and Physiology, with 
-                specialization in Cognitive Neurosciences (Pierre and Marie 
-                Curie University, Paris), provided me with the basis for 
-                understanding brain aging mechanisms. 
-                My enthusiasm in this domain propelled me to pursue a PhD in 
-                Cognitive Neurosciences (Sorbonne University) at the Paris Brain 
-                Institute, working in the field of language in neurodegenerative 
-                diseases and the use of transcranial stimulation as a possible 
-                therapeutic approach. 
-                As movements, each word also has a biography that is related to 
-                the biography of the person using it. Understanding how one’s 
-                language abilities are affected during a disease process is 
-                another piece in the complex domain of neurodegeneration and its 
-                consequences on one’s identity.
+    I earned my PhD in Health Economics from Hiroshima University and a master’s
+    degree in Human Resource Development from Waseda University in Tokyo. My 
+    doctoral research in Dr. Yoshihiko Kadoya’s lab focused on identifying key
+    determinants that exposed populations in different countries to increased
+    health risks thereby enabling timely intervention measures.
+
+    Joining Decision Lab under Dr. Winston Chiong is an exciting opportunity.
+    I am currently working on a project aimed at understanding how genetic 
+    predispositions to frontotemporal dementia influence decision-making in 
+    the pre-symptomatic phase. Through neuroeconomic methods, the research 
+    seeks to identify incidents of early impaired judgment that could lead 
+    to intervention strategies to decelerate the onset of frontotemporal 
+    dementia.
 
 
-                I am interested in understanding how an individual responds to 
-                aging in different spheres of life and how the identification of 
-                altered mechanisms in pathological aging can help prevent early 
-                cognitive and functional decline. 
-                By joining the Decision Lab at the Memory and Aging Center, I am 
-                excited to explore how the process of decision-making is 
-                affected and which are the neural basis that subtends 
-                decision-making alterations.
-  
-                
-- name: Pongpat Putthinun
-  degrees: PhD
-  image: team_Pongpat-Putthinun.jpg
-  altimage: 
-  position: Postdoc
-  email: pongpat.putthinun (at) ucsf.edu
-  twitter:
-  website: 
-  github:
-  scholar: 
-  orcid:
-  description:  Having lived for extended periods in Thailand, Japan, and the 
-                United States, I gained insight into the diverse healthcare 
-                practices and attitudes toward dementia and the disparate 
-                resources for diagnosis, treatment and care across borders 
-                and demographic groups. I want to use my background in health
-                economics and the expertise I acquire at UCSF Memory and Aging
-                Center to contribute to the advancement of brain health equity
-                through enhanced public health programs that can provide global
-                benefits.
+- name: "Manizhe Eslami-Amirabadi"
+  degrees: "MD"
+  image: "assets/img/team_Manizhe.jpg"
+  position: ""
+  email: "manizhe.eslamiamirabadi (at) ucsf.edu"
+  description: >
+    Movements are files of a person’s life, learned, reproduced, and altered as needed.
+    My interest in the body as a 'depository of human expressiveness’ led me to a degree
+    in Psychomotor Therapy with a Master’s specialization in old age and mental health
+    (University of Lisbon). My Master in Integrative Biology and Physiology, with
+    specialization in Cognitive Neurosciences (Pierre and Marie Curie University, Paris),
+    provided me with the basis for understanding brain aging mechanisms.
 
+    Brain function was one of the most fascinating parts of medicine for me and while
+    training in neurology, I realized that I am especially interested in cognitive
+    function including language and behavior. Ethical aspects of dementia as a disease
+    and observation of its burden on the patients and their caregivers have been also
+    an important motivation for me to pursue further training and research efforts in
+    the field of neuroethics with hopes to help providing a more equitable care around
+    the world by raising awareness about current disparities and gaps in health literacy
+    and healthcare access.
 
-                I earned my PhD in Health Economics from Hiroshima University
-                and a master’s degree in Human Resource Development from Waseda
-                University in Tokyo. My doctoral research in Dr. Yoshihiko 
-                Kadoya’s lab focused on identifying key determinants that 
-                exposed populations in different countries to increased health 
-                risks thereby enabling timely intervention measures. 
-
-
-                Joining Decision Lab under Dr. Winston Chiong is an exciting
-                opportunity. I am currently working on a project aimed at 
-                understanding how genetic predispositions to frontotemporal
-                dementia influence decision-making in the pre-symptomatic phase.
-                Through neuroeconomic methods, the research seeks to identify
-                incidents of early impaired judgment that could lead to 
-                intervention strategies to decelerate the onset of frontotemporal
-                dementia.
-
-
-                Outside of work, my interests include attending symphonic 
-                concerts, visiting museums, keeping fit at the gym, kayaking,
-                and exploring new places.
-                
-- name:  Manizhe Eslami-Amirabadi
-  degrees: MD 
-  image: team_Manizhe.jpg
-  altimage: 
-  position: Behavioral Neurology Fellow
-  email: manizhe.eslamiamirabadi (at) ucsf.edu
-  twitter: 
-  website:
-  github: 
-  scholar: 
-  orcid: 
-  description:   I have a longstanding interest in improving healthcare access
-                  and equity in healthcare. After I finished each step of my medical
-                  training in Iran, I worked in an underserved area of my country 
-                  and learned about various cultures, dialects and languages as well 
-                  as various belief systems. Moving to the US and living in Boston was
-                  another exceptional experience. These experiences made me curious about 
-                  the neurobiological basis of ethics as well as its cultural relevance. 
-                  
-
-                  Brain function was one of the most fascinating parts of medicine for 
-                  me and while training in neurology, I realized that I am especially 
-                  interested in cognitive function including language and behavior. Ethical 
-                  aspects of dementia as a disease and observation of its burden on the 
-                  patients and their caregivers have been also an important motivation
-                  for me to pursue further training and research efforts in the field 
-                  of neuroethics with hopes to help providing a more equitable care 
-                  around the world by raising awareness about current disparities and
-                  gaps in health literacy and healthcare access.
-
-
-                  I love poetry, literature and music. They help me enjoy and make sense 
-                  of our complex world. I spend my spare time with them, friends, family,
-                  or nature! I also love art museums!  
-
-- name: Valerie Black
-  degrees: PhD
-  image: Team_valerie-black.png
-  altimage: 
-  position: Postdoc
-  email: valerie.black (at) ucsf.edu
-  twitter:
-  website: 
-  github:
-  scholar: 
-  orcid:
-  description: I’m a sociocultural and medical anthropologist (PhD UC Berkeley) whose research examines 
-               the relationships we form through and with the technologies we use. 
-               My work demonstrates how these relationships are not only reflections of ethical considerations, 
-               but are also active sites for addressing pressing ethical challenges. My research background focuses on 
-               AI in mental health care and the use of generative AI tools in workplaces. 
-               
-               
-               As an ethnographer for the Decision Lab, I apply qualitative research methods—such as interviews and participant 
-               observation—to center the lived experiences of patients, caregivers, technologists, medical practitioners, 
-               and other stakeholders in the Lab's array of research projects. I also draw on my background in disability studies 
-               to explore more inclusive approaches to neuroethics. The principle of “Nothing about us without us” guides my work. 
-
-               
-               In my free time, I do things like question the notion of free time, go on walks with my small, loud Pomeranian, 
-               and watch Netflix to the point where it asks, “Are you still watching?” 
-                
-- name: Marcus Piattoni
-  image: team_Marcus-Piattoni.jpg
-  altimage: 
-  position: Research Coordinator 
-  email: marcus.piattoni (at) ucsf.edu
-  twitter: 
-  website:
-  scholar:
-  orcid:
-  description:  I am a recent Loyola University Chicago graduate who majored in Neuroscience and minored in Bioethics. 
-
-
-                My interest in Neuroethics began when I joined the Bioethics Bowl Team at Loyola University Chicago during my freshman year. 
-                Each week, the team would meet to discuss various bioethical cases in preparation for a yearly tournament. 
-                These meetings involved deep philosophical discussion, hours of research into various scientific and ethical concepts, 
-                and collaboration with team members to answer moral questions pertaining to each bioethical case. 
-                The cases we discussed ranged from the ethics of merging A.I. with the human brain 
-                to the ethicality of using an artificial uterus to grow the next generation of the human race. 
-                While I found nearly all the bioethical topics we discussed quite engaging, 
-                the ethical dilemmas surrounding emerging neurotechnology and surrogate decision-making particularly piqued my interest.
-
-
-                My eagerness to learn more about the ethics of neurotechnology and surrogate decision-making ultimately led me to the Decision Lab. 
-                Dr. Chiong’s research on neurotechnology, Dementia, and decision-making aligns well with my research interests, 
-                and I am grateful to have the opportunity to contribute to such important research. 
-
-
-                In my spare time, I enjoy reading, collecting vintage books, thrifting, and playing video games. 
-
-- name: Noah Cryns
-  image: Team_noah-cryns.jpg 
-  altimage:
-  position: Research Coordinator 
-  email: noah.cryns (at) ucsf.edu
-  twitter:
-  website: 
-  scholar: 
-  orcid:
-  description:  As an undergraduate, I attended UC Berkeley, where I developed a 
-                fascination for the brain and behavior, prompting me to pursue a 
-                degree in neurobiology. At Berkeley, I studied in the lab of Dr. 
-                Linda Wilbrecht where I completed an honors thesis investigating 
-                adolescent exploration, risk-taking, and reward-seeking 
-                behaviors and their neurophysiological correlates. 
-                During this time, I developed a passion for research, 
-                particularly reward processing and decision making, and how the 
-                dysfunction of these processes is relevant to disease and 
-                addiction.
-
-
-                Experiences outside of academics have been instrumental in 
-                helping to refine my interests. For example, I work as a crisis 
-                counselor, assisting folks in getting through challenging 
-                moments in their lives. I also volunteered at the Alzheimer’s 
-                Services of the East Bay. I found interacting with and working 
-                to improve the quality of life for older individuals of all 
-                backgrounds to 
-                be critical and fulfilling, and I resolved to fuse this 
-                meaningful work with my passion for research. I became 
-                particularly interested in studying dementia, as this topic is 
-                personal to me, and there is still so much to understand about 
-                different dementias.
-
-
-                I am extremely excited to be working as a clinical research 
-                coordinator in both the Decision Lab and the lab of Dr. David 
-                Perry. The research conducted by these groups integrates my 
-                interests in decision making, reward processing, and 
-                neurodegenerative disease and allows me to contribute to 
-                research that will improve the diagnostic accuracy of dementia 
-                and allow for effective 
-                treatment. I look forward to learning more about this complex 
-                disease and hope our work can help patients and their loved ones 
-                to cope with its often debilitating effects.  
-                In my spare time, I enjoy surfing, playing basketball, playing 
-                soccer, running and music.
-
-- name: Ashley Jackson
-  degrees:
-  image: team_ashley-jackson.jpg
-  altimage: 
-  position: Research Coordinator
-  email: ashley.jackson3 (at) ucsf.edu
-  twitter:
-  website: 
-  scholar: 
-  orcid:
-  description: I am transitioning from a former career as a Ballet dancer to a 
-               field of medicine, science, and groundbreaking clinical research. 
-               I graduated Magna Cum Laude with a Performing Arts Degree in the 
-               Liberal Education for Arts Professionals program at Saint Mary’s 
-               College of California. I am also earning an
-               Associate’s degree in the field of Biological Sciences at Canada 
-               College. Among several extracurricular activities, I also enjoyed 
-               being a part of the Phi Theta Kappa Honor Society and the Alpha 
-               Gamma Sigma Honor Society.
-  
-  
-               While focusing on my artistry as a ballerina, I enjoyed traveling 
-               the world and experiencing unique cultures. In my dance career, 
-               I was awarded the Princess Grace Award, a Congressional Black 
-               Caucus Foundation’s Performing Arts Medal, and the Chris Hellman 
-               Award, among other newspaper and magazine features.
-               While I appreciate and value my time in the dance world, I always 
-               knew that I would like to go into medicine one day. 
- 
- 
-               I discovered my passion for research during my time as an NIH 
-               researcher in the Bridges to Baccalaureate Program through SF 
-               State University. In this program, I acquired laboratory skills 
-               and presented on various research projects. I enjoy volunteering 
-               at the UCSF Benioff Children’s Hospital and at Shanti 
-               Project, where I was grateful to be named the Spotlight Volunteer 
-               in Shanti’s Spring 2019 Newsletter. I am thrilled to provide 
-               emotional support and practical assistance for both children in 
-               the hospital and assisting aging adults with disabilities in 
-               Shanti.
- 
- 
-               Compassion for our elderly with dementia is a value that is 
-               essential in society, so I am incredibly interested in 
-               researching and assisting with projects that enhance their 
-               quality of life. This is one of many reasons I believe in and 
-               value the research at the UCSF Memory and Aging Center and why 
-               I’m 
-               excited about the work that I am doing as a member of the 
-               Decision lab, specifically on the 
-               [Genes, Brains and Decisions](/projects/index.html#gbd) Project. 
-               The insightful knowledge, experience, and abilities I will learn 
-               while working at UCSF’s world-class facility will better prepare 
-               me for my future as a physician and researcher.
- 
- 
-               In my spare time, I enjoy swimming, hiking, reading, and Pilates.
-               
+    I love poetry, literature and music. They help me enjoy and make sense of our complex
+    world. I spend my spare time with them, friends, family, or nature! I also love art
+    museums!
