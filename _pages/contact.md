@@ -13,8 +13,8 @@ nav_order: 5
 
 We have positions for graduate students and postdoc fellows.
 
-#Ph.D. Vacancies
+# Ph.D. Vacancies
 - Please check xxx.
 
-#Postdoc Vacancies
+# Postdoc Vacancies
 - Please contact Ziliang Wang by ziliang.wang@northwestern.edu
