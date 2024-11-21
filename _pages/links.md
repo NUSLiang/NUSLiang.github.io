@@ -19,7 +19,12 @@ nav_order: 6
 <div class="bigspacer"></div>
 
 ### Collaborators
-- Interested applicants can get contact with Ziliang Wang by <ziliang.wang@northwestern.edu>
+---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+---
 
 ### Sponsors
 
