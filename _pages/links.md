@@ -19,16 +19,10 @@ nav_order: 6
 <div class="bigspacer"></div>
 
 ### Collaborators
----
-    layout: page
-    img: /assets/img/12.jpg
----
+{% include figure.liquid loading="eager" path="assets/img/12.jpg" title="NU-MSE" class="img-fluid rounded z-depth-1" %}
 [NU-MSE](https://www.mccormick.northwestern.edu/materials-science/)
 
----
-    layout: page
-    img: /assets/img/1.jpg
----
+{% include figure.liquid loading="eager" path="assets/img/12.jpg" title="UH" class="img-fluid rounded z-depth-1" %}
 [UH](https://uh.edu)
 
 
