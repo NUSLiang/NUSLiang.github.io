@@ -24,4 +24,4 @@ We have positions for graduate students and postdoc fellows.
 <div class="bigspacer"></div>
 
 #### Postdoc Vacancies
-- Interested applicants can get contact with Ziliang Wang by ziliang.wang@northwestern.edu
+- Interested applicants can get contact with Ziliang Wang by <ziliang.wang@northwestern.edu>
