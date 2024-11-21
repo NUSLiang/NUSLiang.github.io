@@ -19,11 +19,10 @@ nav_order: 6
 <div class="bigspacer"></div>
 
 ### Collaborators
-{% include figure.liquid loading="eager" path="assets/img/12.jpg" title="NU-MSE" class="img-fluid rounded z-depth-1" %}
-[NU-MSE](https://www.mccormick.northwestern.edu/materials-science/)
+[![NU-MSE](/assets/img/1.jpg "1jpg")](https://www.mccormick.northwestern.edu/materials-science/)
 
-{% include figure.liquid loading="eager" path="assets/img/12.jpg" title="UH" class="img-fluid rounded z-depth-1" %}
-[UH](https://uh.edu)
+[![UH](/assets/img/10.jpg "10jpg")](https://uh.edu)
+
 
 
 ### Sponsors
