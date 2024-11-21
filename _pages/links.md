@@ -22,6 +22,13 @@ nav_order: 6
 [![NU-MSE](/assets/img/1.jpg "1jpg")](https://www.mccormick.northwestern.edu/materials-science/)
 [![UH](/assets/img/10.jpg "10jpg")](https://uh.edu)
 
+<div align="center">
+    <img src="/assets/img/1.jpg" height=160>
+    <img src="/assets/img/10.jpg" height=160>
+</div>
+
+
+
 
 
 
