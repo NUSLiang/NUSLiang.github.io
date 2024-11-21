@@ -1,15 +1,18 @@
 content:
-  - header: Solid State Batteries
+  - header: Li-on Battery
     p_content: >-
       In the critical area of sustainable energy storage, solid-state batteries (see <strong>Figure 1</strong>) have attracted considerable attention due to their potential safety, energy-density, and cycle-life benefits...
     image: assets/img/lion_battery.jpg
+    url: "#"
 
-  - header: Rechargeable Batteries
+  - header: Machine-learning package
     p_content: >-
       Rechargeable batteries have become the cornerstone of modern energy storage, providing versatility and efficiency for various applications...
     image: assets/img/Multivalent_batteries.png
+    url: "#"
 
-  - header: Non-linear Optics
+  - header: Na-Ion Battery
     p_content: >-
       Non-linear optics plays a pivotal role in advancing photonic technologies, enabling significant improvements in signal processing, imaging, and telecommunications...
     image: assets/img/nlo_image_splash.jpg
+    url: "#"
