@@ -3,7 +3,7 @@ layout: about
 title: Home
 nav: true
 permalink: /
-subtitle: <Font Weight="bold">Ziliang's Intelligent OpeN (ZION) Advanced Materials Lab.</Font>
+subtitle: Ziliang's Intelligent OpeN (ZION) Advanced Materials Lab.
 
 profile:
   align: right
