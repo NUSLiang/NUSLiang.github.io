@@ -3,7 +3,7 @@ layout: about
 title: Home
 nav: true
 permalink: /
-subtitle: Ziliang's Intelligent OpeN (ZION) Advanced Materials Lab.
+#subtitle: Ziliang's Intelligent OpeN (ZION) Advanced Materials Lab.
 
 profile:
   align: right
