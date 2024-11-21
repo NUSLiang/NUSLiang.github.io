@@ -59,17 +59,23 @@ nav_order: 2
 }
 </style>
 <div class="research_container">
+    {% for content in site.data.research.content %}
     <div class="text-content">
-      <h1 class="">Solid State Batteries</h1>
-      <p class="">
-        In the critical area of sustainable energy storage, solid-state batteries (see <strong>Figure 1</strong>) have attracted considerable attention due to their potential safety, energy-density, and cycle-life benefits...
+      <h1>
+        <a href="{{ site.baseurl }}/{{ content.url }}">{{ content.header }}</a>
+      </h1>
+      <p>
+        {{ content.p_content | markdownify }}
       </p>
     </div>
     <div class="image-content">
       <img
-        src="{{ site.baseurl}}/assets/img/lion_battery.jpg"
-        alt="lion_battery"
+        src="{{ site.baseurl }}/{{ content.image }}"
+        alt="{{ content.header | downcase | replace: ' ', '_' }}"
       />
     </div>
+    {% endfor %}
   </div>
+  
+
   
