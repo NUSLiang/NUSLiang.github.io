@@ -3,7 +3,7 @@ layout: about
 title: Home
 nav: true
 permalink: /
-subtitle: Ziliang's Intelligent Open Networks (ZION) for boosting Materials Science Research.
+subtitle: <Font Weight="bold">Ziliang's Intelligent OpeN (ZION) Advanced Materials Lab.</Font>
 
 profile:
   align: right
