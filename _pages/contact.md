@@ -10,6 +10,7 @@ nav_order: 5
 ---
 
 **Openings**
+
 We have positions for graduate students and postdoc fellows.
 
 #Ph.D. Vacancies
