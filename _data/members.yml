@@ -16,13 +16,11 @@
     researchers, and policymakers to address the ethical and social implications
     of changes in decision-making due to altered brain function.
 
-
-
 - name: "Pongpat Putthinun"
   degrees: "PhD"
   image: "assets/img/team_Pongpat-Putthinun.jpg"
   position: "Postdoc"
-  email: "pongpat.putthinun (at) ucsf.edu"
+  email: "pongpat.putthinun@ucsf.edu"
   description: >
     Having lived for extended periods in Thailand, Japan, and the United States,
     I gained insight into the diverse healthcare practices and attitudes toward 
@@ -46,12 +44,11 @@
     to intervention strategies to decelerate the onset of frontotemporal 
     dementia.
 
-
 - name: "Manizhe Eslami-Amirabadi"
   degrees: "MD"
   image: "assets/img/team_Manizhe.jpg"
   position: ""
-  email: "manizhe.eslamiamirabadi (at) ucsf.edu"
+  email: "manizhe.eslamiamirabadi@ucsf.edu"
   description: >
     Movements are files of a person’s life, learned, reproduced, and altered as needed.
     My interest in the body as a 'depository of human expressiveness’ led me to a degree
