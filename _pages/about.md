@@ -7,7 +7,7 @@ permalink: /
 
 profile:
   align: right
-  image: group_logo_11192024.jpg
+  image: group_logo_11212024.jpg
   image_circular: false # crops the image to make it circular
 #more_info: >
 #<p align="right">Tech. Institute L411</p>
