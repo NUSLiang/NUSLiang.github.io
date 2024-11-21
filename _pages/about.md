@@ -9,10 +9,10 @@ profile:
   align: right
   image: group_logo_11192024.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p align="right">Tech. Institute L411</p>
-    <p align="right">2145 Sheridan Road</p>
-    <p align="right">Evanston, IL 60208, USA</p>
+#more_info: >
+#<p align="right">Tech. Institute L411</p>
+#<p align="right">2145 Sheridan Road</p>
+#<p align="right">Evanston, IL 60208, USA</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
