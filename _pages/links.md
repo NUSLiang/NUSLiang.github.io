@@ -21,12 +21,15 @@ nav_order: 6
 ### Collaborators
 ---
     layout: page
-    title: project
-    description: a project with a background image
     img: /assets/img/12.jpg
 ---
 [NU-MSE](https://www.mccormick.northwestern.edu/materials-science/)
 
+---
+    layout: page
+    img: /assets/img/1.jpg
+---
+[UH](https://uh.edu)
 
 
 ### Sponsors
