@@ -12,8 +12,6 @@ nav_order: 5
 
 We are currently hiring new group members to join! Please check the following information.
 
-### Openings
-
 We have positions for graduate students and postdoc fellows.
 
 
