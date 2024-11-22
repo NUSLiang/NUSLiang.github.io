@@ -31,8 +31,8 @@
 
 - name: "Pongpat Putthinun"
   degrees: "PhD"
-  image: "assets/img/team_Pongpat-Putthinun.jpg"
-  position: "Postdoc"
+  image: "assets/img/cat.jpg"
+  position: "Research Fellow"
   email: "pongpat.putthinun@ucsf.edu"
   description: >
     Having lived for extended periods in Thailand, Japan, and the United States,
@@ -61,8 +61,8 @@
 
 - name: "Manizhe Eslami-Amirabadi"
   degrees: "PhD"
-  image: "assets/img/team_Manizhe.jpg"
-  position: "MD"
+  image: "assets/img/dog.jpg"
+  position: "Graduate Student"
   email: "manizhe.eslamiamirabadi@ucsf.edu"
   description: >
     Movements are files of a person’s life, learned, reproduced, and altered as needed.
