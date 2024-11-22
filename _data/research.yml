@@ -14,6 +14,6 @@ content:
   - header: Na-Ion Battery
     p_content: >-
       Na-ion battery is one of the most promising candidates to conventional Li-ion battery technologies, due to the cost effectiveness of the abundance of Na resources. 
-      <a href="https://pubs.rsc.org/en/content/articlelanding/2021/ta/d0ta10688g">A Reference</a> can be found.
+      We perform DFT to simulate potential cathodes for Na-ion batteries.
     image: assets/img/Na_ion_nature_mat.png
     #url: "#"
