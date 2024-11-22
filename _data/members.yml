@@ -1,19 +1,36 @@
 - name: "Ziliang Wang"
-  degrees: "Dr."
-  image: "assets/img/prof_pic.jpg"
-  position: "The Principal Investigator"
-  email: "ziliang.wang@northwestern.edu"
-  website: "https://sites.google.com/site/wolvertonresearchgroup/members/ziliang-wang?authuser=0"
-  scholar: "https://scholar.google.com/citations?user=2uSFOxgAAAAJ&hl=en&oi=ao"
+  degrees: "MD PhD“
+  image: "assets/img/team_Winston-Chiong.jpg"	
+  position: "The One Principal Investigator"
+  email: "winston.chiong@ucsf.edu"
+  website: "https://profiles.ucsf.edu/winston.chiong"
+  scholar: "https://scholar.google.com/citations?user=jLpCQugAAAAJ&hl=en"
   description: >
-    I am a <strong>materials science postdoc now</strong>, who works enthusiatically and actively
-    at <strong>energy materials</strong> field.
+    I see myself as having three main jobs, which (I hope) inform one another.
+    I am a <strong>behavioral neurologist</strong>, and my clinical practice focuses on
+    Alzheimer's disease, frontotemporal dementia, and other cognitive disorders of aging.
+    I am also a <strong>cognitive neuroscientist</strong>, applying observations from clinic
+    to investigate why patients like mine are vulnerable to making bad decisions.
+    Third, I am a <strong>neuroethicist</strong>, working alongside other clinicians,
+    researchers, and policymakers to address the ethical and social implication
+    of changes in decision-making due to altered brain function.
     <br>
     <br>
-    I obtained my bachelor's degree in physics from UCAS.
+    I studied philosophy as an undergraduate at UC Berkeley. During medical school here at 
+    UCSF, I took a leave to pursue a PhD in philosophy at NYU, where I studied with Thomas 
+    Nagel and Derek Parfit. After residency training in neurology back at UCSF, I did a 
+    combined fellowship in cognitive neuroscience and neuroimaging with Mark D’Esposito 
+    at UC Berkeley and in behavioral neurology here at the UCSF Memory and Aging Center.
     <br>
     <br>
-    Besides work, I enjoy gym exercise and playing transformers toys.
+    Alongside my clinical and research work, I am the Director of UCSF Bioethics and a 
+    member of the the UCSF Medical Center Ethics Committee. Beyond UCSF, I serve on the
+    through Advancing Innovative Neurotechnologies) Multi-Council Working Group, the 
+    American Academy of Neurology’s Ethics, Law and Humanities Committee, and the Board 
+    of Directors of the International Neuroethics Society. I am also a research mentor in 
+    the Association of American Medical Colleges’ Career Development Program for Maximizing 
+    Opportunities for Scientific and Academic Independent Careers (MOSAIC) Scholars 
+    (K99/R00) from diverse backgrounds.
 
 
 
