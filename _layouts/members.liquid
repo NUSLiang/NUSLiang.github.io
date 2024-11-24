@@ -2,7 +2,26 @@
 layout: default
 ---
 <style>
-    
+    @media screen and (max-width: 1024px) {
+        .member_container {
+        max-width: 930px;
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 columns */
+        gap: 20px; /* Adjust spacing between items */
+        width: 100%;
+    }
+  }
+    @media screen and (max-width: 768px) {
+        .member_container {
+        max-width: 930px;
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat( 1, 1fr); /* 3 columns */
+        gap: 20px; /* Adjust spacing between items */
+        width: 100%;
+    }
+}
     .member_container {
         max-width: 930px;
         margin-top: 70px;
