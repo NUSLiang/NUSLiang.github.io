@@ -3,7 +3,7 @@ layout: default
 ---
 
 <style>
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .image_container {
       display: flex;
       flex-direction: column;
@@ -11,7 +11,7 @@ layout: default
       color: #949494;
       column-gap: 50px;
   }
-  .image_container img {
+.image_container img {
     width: 100%;
 }
 .image_container div{
@@ -22,12 +22,13 @@ layout: default
 }
 .sidebar{
   border-top: 1px solid;
-  padding-top: 50px;
+  padding-top: 20px;
   border-bottom: 1px solid;
   margin-bottom: 50px;
   padding-bottom: 50px;
 }
 }
+@media screen and (min-width: 768px) {
   .image_container{
     display: flex;
     flex-direction: row;
@@ -35,6 +36,23 @@ layout: default
     color: #949494;
     column-gap: 50px;
   }
+  .image_container img{
+    width: 200px;
+  }
+  .sidebar{
+    text-align: left;
+    flex: 15%;
+  }
+  .post_container{
+    flex-direction: row;
+  }
+}
+.post_container{
+  display: flex;
+  max-width: 930px;
+  margin-top: 25px;
+}
+
   .image_container h2{
     font-size: 40px;
   }
