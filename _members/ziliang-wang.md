@@ -1,15 +1,15 @@
 ---
 name: Ziliang Wang
-degrees: "MD PhD"
+degrees: "Ph.D."
 image: "assets/img/prof_pic.jpg"
 position: "Principal Investigator"
 email: "winston.chiong@ucsf.edu"
 cv: "" #add your cv here
 github: NUSLiang
 orcid: 0000-0002-6705-2329
-twitter: "ChristopherA" # change the username
-website: "https://profiles.ucsf.edu/winston.chiong"
-scholar: "jLpCQugAAAAJ&hl=en"
+twitter: "Ziliang_W" # change the username
+website: "https://nusliang.github.io"
+scholar: "2uSFOxgAAAAJ&hl=en&oi=ao"
 rank: 1
 ---
 
