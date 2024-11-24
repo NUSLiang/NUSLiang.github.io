@@ -1,6 +1,6 @@
 ---
 permalink: /members/
-layout: page
+layout: members
 title: Members
 description: ""
 comments: true
@@ -8,64 +8,3 @@ modified: 2024-07-08
 nav: true
 nav_order: 4
 ---
-<style>
-    .team-container{
-        max-width: 930px;
-    }
-    .team-container img{
-        float: right;
-        width: 42%;
-        padding-left: 20px;
-    }
-    .description{
-        text-align: justify;
-    }
-    .fas{
-        font-size: 15px;
-    }
-    hr{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        height: 1px;
-        background-color: #828282;
-        border: 0;
-    }
-    .header_content h4{
-        padding-bottom: 40px;
-    }
-    .header_content p {
-        padding-bottom: 0px !important;
-    }
-    .description{
-        padding-top: 20px;
-    }
-</style>
-
-<div class="team-container">
-  {% for member in site.data.members %}
-    <img src="{{ site.baseurl}}/{{ member.image }}" alt="{{ member.name }}">
-    <div>
-        <div class="header_content">
-            <h4>{{ member.name}}, {{ member.degrees }}</h4>
-            {% if member.position %}
-            <p>{{ member.position }}</p>
-            {% endif %}
-            {% if member.email %}
-            <p><i class="fas fa-envelope"></i> <span>  </span> <a style="font-style: italic;" href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-            {% endif %}
-            {% if member.website %}
-            <p><i class="fas fa-link"></i> <span>  </span> <a href="{{ member.website }}" target="_blank">{{ member.website }}</a></p>
-            {% endif %}
-            {% if member.scholar %}
-            <p><i class="fas fa-school"></i> <span>  </span> <a href="{{ member.scholar }}" target="_blank">Scholar Citations</a></p>
-            {% endif %}
-        </div>
-        <div class="description">
-            <p>{{ member.description | markdownify}}</p>
-        </div>
-        
-    </div>
-    <hr>
-  {% endfor %}
-</div>
-

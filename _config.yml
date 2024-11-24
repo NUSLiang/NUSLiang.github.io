@@ -41,11 +41,24 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
+
+
+collections:
+  members:
+    output: true
+
+defaults:
+  - scope:
+      path: "_members"
+      type: "members"
+    values:
+      layout: "member_post"
+
 
 navbar_fixed: true
 footer_fixed: true

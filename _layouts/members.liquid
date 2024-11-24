@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<ul>
+    {% for post in site.members %}
+      <li>
+       <h2> <a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h2>
+       <h4>{{ post.summary | truncate: 200}}</h4>
+        <span class="date">Date: {{ post.date | date: "%B %d, %Y" }}</span>
+        <br>
+        <span class="categories">
+          Categories: {{ post.categories | join: " | " }}
+        </span>
+      </li>
+      <br>
+      <hr>
+    {% endfor %}
+  </ul>
