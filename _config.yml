@@ -48,16 +48,6 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 
-collections:
-  members:
-    output: true
-
-defaults:
-  - scope:
-      path: "_members"
-      type: "members"
-    values:
-      layout: "member_post"
 
 
 navbar_fixed: true
@@ -204,6 +194,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  members:
+    output: true
+
   news:
     defaults:
       layout: post
@@ -291,6 +284,12 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+
+  - scope:
+      path: "_members"
+      type: "members"
+    values:
+      layout: "member_post"
 
 sass:
   style: compressed
