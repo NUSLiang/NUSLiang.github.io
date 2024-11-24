@@ -58,6 +58,9 @@ layout: default
         color: grey;
     }
 </style>
+
+<h1>{{ page.title }}</h1>
+{% break %}
 <div class="member_container"> 
     {% assign sorted_members = site.members | sort: "rank" %}
     {% for post in sorted_members %}

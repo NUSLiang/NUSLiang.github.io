@@ -196,6 +196,8 @@ newsletter:
 collections:
   members:
     output: true
+  research:
+    output: true
 
   news:
     defaults:
@@ -290,6 +292,12 @@ defaults:
       type: "members"
     values:
       layout: "member_post"
+
+  - scope:
+      path: "_research"
+      type: "research"
+    values:
+      layout: "research_post"
 
 sass:
   style: compressed
