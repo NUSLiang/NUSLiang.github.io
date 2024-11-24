@@ -1,5 +1,5 @@
 content:
-  - header: Li-on Battery
+  - header: Li-Ion Battery
     p_content: >-
       In the critical area of sustainable energy storage, solid-state batteries (see <strong>Figure 1</strong>) have attracted considerable attention due to their potential safety, energy-density, and cycle-life benefits...
     image: assets/img/lion_battery.jpg
@@ -13,6 +13,6 @@ content:
 
   - header: Na-Ion Battery
     p_content: >-
-      Non-linear optics plays a pivotal role in advancing photonic technologies, enabling significant improvements in signal processing, imaging, and telecommunications...
-    image: assets/img/nlo_image_splash.jpg
+      Na-ion battery is one of the most promising candidates to conventional Li-ion battery technologies, due to the cost effectiveness of the abundance of Na resources. 
+    image: assets/img/Na_ion_nature_mat.png
     url: "#"

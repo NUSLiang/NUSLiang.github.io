@@ -1,19 +1,13 @@
 - name: "Ziliang Wang"
   degrees: "MD PhD"
-  image: "assets/img/team_Winston-Chiong.jpg"
+  image: "assets/img/prof_pic.jpg"
   position: "Principal Investigator"
-  email: "winston.chiong@ucsf.edu"
-  website: "https://profiles.ucsf.edu/winston.chiong"
-  scholar: "https://scholar.google.com/citations?user=jLpCQugAAAAJ&hl=en"
+  email: "ziliang.wang@northwestern.edu"
+  website: "https://nusliang.github.io"
+  scholar: "https://scholar.google.com/citations?user=2uSFOxgAAAAJ&hl=en&oi=ao"
   description: >
-    I see myself as having three main jobs, which (I hope) inform one another.
-    I am a <strong>behavioral neurologist</strong>, and my clinical practice focuses on
-    Alzheimer's disease, frontotemporal dementia, and other cognitive disorders of aging.
-    I am also a <strong>cognitive neuroscientist</strong>, applying observations from clinic
-    to investigate why patients like mine are vulnerable to making bad decisions.
-    Third, I am a <strong>neuroethicist</strong>, working alongside other clinicians,
-    researchers, and policymakers to address the ethical and social implications
-    of changes in decision-making due to altered brain function.
+    I obtained my bachelar's degree in physics at [University of Chinese Academy of Sciences](https://www.ucas.ac.cn).
+    I got Ph.D. in materials science and engineering at [National Univesity of Singapore](https://cde.nus.edu.sg/mse/).
     <br>
     <br>
     I studied philosophy as an undergraduate at UC Berkeley. During medical school here at 
@@ -37,17 +31,14 @@
 
 - name: "Pongpat Putthinun"
   degrees: "PhD"
-  image: "assets/img/team_Pongpat-Putthinun.jpg"
-  position: "Postdoc"
-  email: "pongpat.putthinun@ucsf.edu"
+  image: "assets/img/cat.jpg"
+  position: "Research Fellow"
+  website: "https://www.linkedin.com/in/ziliang-wang-9a79bb251/"
+  email: "ziliangwangv587@gmail.com"
   description: >
-    Having lived for extended periods in Thailand, Japan, and the United States,
-    I gained insight into the diverse healthcare practices and attitudes toward 
-    dementia and the disparate resources for diagnosis, treatment and care
-    across borders and demographic groups. I want to use my background in 
-    health economics and the expertise I acquire at UCSF Memory and Aging
-    Center to contribute to the advancement of brain health equity through
-    enhanced public health programs that can provide global benefits.
+    Sentence1. bala bala babalala  
+    Sentence2.    
+    
     <br>
     <br>
     I earned my PhD in Health Economics from Hiroshima University and a master’s
@@ -67,9 +58,10 @@
 
 - name: "Manizhe Eslami-Amirabadi"
   degrees: "PhD"
-  image: "assets/img/team_Manizhe.jpg"
-  position: "MD"
-  email: "manizhe.eslamiamirabadi@ucsf.edu"
+  image: "assets/img/dog.jpg"
+  position: "Graduate Student"
+  website: "https://www.linkedin.com/in/ziliang-wang-9a79bb251/"
+  email: "ziliangwangv587@gmail.com"
   description: >
     Movements are files of a person’s life, learned, reproduced, and altered as needed.
     My interest in the body as a 'depository of human expressiveness’ led me to a degree
