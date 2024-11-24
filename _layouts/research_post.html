@@ -15,12 +15,13 @@ layout: default
 }
 .research_container article{
   width: 90%;
+  margin-top: 50px;
 }
 </style>
 
 <div class="research_container">
   <div class="content_header">
-    <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ page.title }}">
+    <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
     <br>
     <h2>{{ page.title }}</h2>
     <h5>Uploaded Date: <span> </span>{{ page.date |  date: '%B %d, %Y' }}</h5>
