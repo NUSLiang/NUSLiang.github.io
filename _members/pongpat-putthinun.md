@@ -1,6 +1,6 @@
 ---
 name: "Cat"
-degrees: "PhD"
+degrees: "Dr."
 image: "assets/img/cat.jpg"
 position: "Research Fellow"
 website: "https://www.linkedin.com/in/ziliang-wang-9a79bb251/"
