@@ -56,7 +56,8 @@ layout: default
     }
 </style>
 <div class="member_container"> 
-    {% for post in site.members %}
+    {% assign sorted_members = site.members | sort: "rank" %}
+    {% for post in sorted_members %}
     <div class="members">                    
         <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.name }}"> </a>
         <div>
