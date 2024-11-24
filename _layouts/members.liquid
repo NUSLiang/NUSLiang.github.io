@@ -1,11 +1,37 @@
 ---
 layout: default
 ---
-
+<style>
+    
+    .member_container {
+        max-width: 930px;
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        gap: 20px; /* Adjust spacing between items */
+        width: 100%;
+    }
+    .members {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; /* Center-align content */
+        text-align: center;
+    }
+    .members img {
+        width: 100px;
+        height: auto;
+        border-radius: 0px; /* Optional: Rounded corners */
+    }
+    .members div{
+        width: 200px;
+        text-align: left;
+        padding-left: 20px;
+    }
+</style>
 <div class="member_container"> 
     {% for post in site.members %}
     <div class="members">                    
-        <a href="{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.name }}"> </a>
+        <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.name }}"> </a>
         <div>
             <a href="{{ post.url | relative_url }}"> <h2>{{ post.name }}, <span>{{ post.degrees }}</span></h2></a>
             <h4>{{ post.position }}</h4>
