@@ -2,18 +2,14 @@
 layout: default
 ---
 
-<ul>
+<div class="member_container"> 
     {% for post in site.members %}
-      <li>
-       <h2> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-       <h4>{{ post.summary | truncate: 200}}</h4>
-        <span class="date">Date: {{ post.date | date: "%B %d, %Y" }}</span>
-        <br>
-        <span class="categories">
-          Categories: {{ post.categories | join: " | " }}
-        </span>
-      </li>
-      <br>
-      <hr>
+    <div class="members">                    
+        <a href="{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.name }}"> </a>
+        <div>
+            <a href="{{ post.url | relative_url }}"> <h2>{{ post.name }}, <span>{{ post.degrees }}</span></h2></a>
+            <h4>{{ post.position }}</h4>
+        </div>                    
+    </div> 
     {% endfor %}
-  </ul>
+</div>
