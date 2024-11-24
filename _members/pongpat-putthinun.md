@@ -1,5 +1,5 @@
 ---
-name: "Pongpat Putthinun"
+name: "Cat"
 degrees: "PhD"
 image: "assets/img/cat.jpg"
 position: "Research Fellow"
