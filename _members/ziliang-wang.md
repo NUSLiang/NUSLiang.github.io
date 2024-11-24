@@ -1,6 +1,6 @@
 ---
 name: Ziliang Wang
-degrees: "Ph.D."
+degrees: "Dr., MRSC"
 image: "assets/img/prof_pic.jpg"
 position: "Principal Investigator"
 email: "winston.chiong@ucsf.edu"
