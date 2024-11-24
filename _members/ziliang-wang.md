@@ -4,10 +4,12 @@ degrees: "MD PhD"
 image: "assets/img/prof_pic.jpg"
 position: "Principal Investigator"
 email: "winston.chiong@ucsf.edu"
-twitter: "WinstonChiong"
+cv: "" #add your cv here
+github: NUSLiang
+orcid: 0000-0002-6705-2329
+twitter: "ChristopherA" # change the username
 website: "https://profiles.ucsf.edu/winston.chiong"
-scholar: "https://scholar.google.com/citations?user=jLpCQugAAAAJ&hl=en"
-position: Principal Investigator
+scholar: "jLpCQugAAAAJ&hl=en"
 ---
 
 I obtained my bachelor's degree in physics at [University of Chinese Academy of Sciences](https://www.ucas.ac.cn).
