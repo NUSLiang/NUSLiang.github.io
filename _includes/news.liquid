@@ -1,16 +1,25 @@
 <style>
     .news{
-        margin-top: 20px;
+        margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* 3 columns */
         gap: 20px; /* Adjust spacing between items */
         width: 100%;
     }
+    .news div p{
+        font-size: smaller;
+        color: grey;
+        margin-top: -10px;
+    }
+
 </style>
 <div class="news">
-    {% assign news_size = site.news %}
+    {% assign news_size = site.news  limit: 3 %}
     {% for post in news_size %}
-    <a href="{{ post.url }}"><i class="fas fa-newspaper"></i><span> </span>{{ post.title }}</a>
-    <p>Uploaded Date: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+    <div> 
+        <a href="{{ post.url }}"><i class="fas fa-newspaper"></i><span> </span>{{ post.title }}</a>
+        <p>Author: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+        <p>Uploaded Date: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+    </div>
     {% endfor %}
 </div>
