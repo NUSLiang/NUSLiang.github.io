@@ -1,9 +1,9 @@
 ---
 name: Ziliang Wang
-degrees: "Ph.D."
+degrees: "Dr., MRSC"
 image: "assets/img/prof_pic.jpg"
 position: "Principal Investigator"
-email: "winston.chiong@ucsf.edu"
+email: "ziliang.wang@northwestern.edu"
 cv: "" #add your cv here
 github: NUSLiang
 orcid: 0000-0002-6705-2329

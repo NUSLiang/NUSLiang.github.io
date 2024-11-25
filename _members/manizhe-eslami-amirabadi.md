@@ -1,6 +1,6 @@
 ---
 name: "Dog"
-degrees: "Master"
+degrees: "MS."
 image: "assets/img/dog.jpg"
 position: "Graduate Student"
 website: "https://www.linkedin.com/in/ziliang-wang-9a79bb251/"
