@@ -9,17 +9,21 @@
   .news div p{
       font-size: smaller;
       color: grey;
-      margin-top: -10px;
+      margin-top: 0px;
   }
 
 </style>
 <div class="news">
-  {% assign latest_posts = site.posts  limit: 3 %}
-  {% for post in latest_posts %}
-  <div> 
+  {% assign latest_posts = site.posts  %}
+  {% for post in latest_posts limit: 3 %}
+  <div>
       <a href="{{ post.url }}"><i class="fas fa-address-card"></i><span> </span>{{ post.title }}</a>
-      <p>Author: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
-      <p>Uploaded Date: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+      {% if post.author %}
+        <p>Author: <span> </span>{{ post.author }}</p>
+      {% endif %}}
+      {% if post.date %}
+          <p>Uploaded Date: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+      {% endif %}
   </div>
   {% endfor %}
 </div>

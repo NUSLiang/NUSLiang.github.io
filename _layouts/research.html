@@ -3,9 +3,17 @@ layout: default
 ---
 
 <style>
-
+    .research_container{
+        margin-bottom: 50px;
+    }
     .text-content h1{
-        color: blueviolet;    
+        color: blueviolet;  
+        font-size: x-large;
+        font-weight: 700;  
+    }
+    .text-content h5{
+        font-size: medium;
+        font-weight: 500;
     }
     .text-content{
         margin-bottom: 150px;
@@ -16,13 +24,14 @@ layout: default
         display: flex;
         flex-direction: row;
         column-gap: 30px;
-
+        margin-bottom: 50px;
+        border-bottom: 1px solid;
+        padding-bottom: 50px;
     }
     .text-content{
         flex: 70%;
         display: flex;
         flex-direction: column;
-        margin-bottom: 150px;
     }
     
     .image-content{
@@ -86,7 +95,7 @@ layout: default
           </p>
           <h5>Uploaded Date: <span> </span>{{ content.date |  date: '%B %d, %Y' }}</h5>
           <h5>Category: {{ content.category }}</h5>
-          <h5>External link: {{ content.external_link }}</h5>
+          <h5>External link: <a href="{{ content.external_link }}" target="_blank" rel="noopener noreferrer"></a>{{ content.external_link }}</h5>
         </div>
         <div class="image-content">
           <img
