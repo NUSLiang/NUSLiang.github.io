@@ -24,34 +24,3 @@ social: true # includes social icons at the bottom of the page
 Currently a postdoctoral fellow working at Ford-Northwestern Alliance with Prof. [Chris Wolverton](https://sites.google.com/site/wolvertonresearchgroup/). 
 
 Ph.D. obtained from National University of Singapore under supervision of Asst. Prof. <a href="https://caneparesearch.org" target="_blank">Pieremanuele Canepa</a>. 
-
-<style>
-@media screen and (min-width: 1024px) {
-  .image_container{
-    display: flex;
-    max-width: 930px;
-    flex-direction: row;
-    column-gap: 20px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .image_container{
-    display: flex;
-    max-width: 930px;
-    flex-direction: row;
-    column-gap: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .image_container{
-    display: flex;
-    max-width: 930px;
-    flex-direction: column;
-    row-gap: 30px;
-  }
-}
-</style>
-<div class="image_container">
-  <img src="{{ site.baseurl }}/assets/img/pic1.png" alt="pic1">
-  <img src="{{ site.baseurl }}/assets/img/pic2.png" alt="pic2">
-</div>

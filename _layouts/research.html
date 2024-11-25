@@ -84,6 +84,9 @@ layout: default
           <p>
             {{ content.content | markdownify }}
           </p>
+          <h5>Uploaded Date: <span> </span>{{ content.date |  date: '%B %d, %Y' }}</h5>
+          <h5>Category: {{ content.category }}</h5>
+          <h5>External link: {{ content.external_link }}</h5>
         </div>
         <div class="image-content">
           <img
