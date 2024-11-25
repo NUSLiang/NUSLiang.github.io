@@ -6,7 +6,7 @@ permalink: /
 #subtitle: Ziliang's Intelligent OpeN (ZION) Advanced Materials Lab.
 
 profile:
-  align: right
+  align: left
   image: group_logo_11212024.png
   image_circular: false # crops the image to make it circular
 #more_info: >

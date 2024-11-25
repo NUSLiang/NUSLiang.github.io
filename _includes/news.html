@@ -1,0 +1,16 @@
+<style>
+    .news{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        gap: 20px; /* Adjust spacing between items */
+        width: 100%;
+    }
+</style>
+<div class="news">
+    {% assign news_size = site.news %}
+    {% for post in news_size %}
+    <a href="{{ post.url }}"><i class="fas fa-newspaper"></i><span> </span>{{ post.title }}</a>
+    <p>Uploaded Date: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+    {% endfor %}
+</div>
