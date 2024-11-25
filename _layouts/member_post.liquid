@@ -6,16 +6,17 @@ layout: default
 @media screen and (max-width: 768px) {
     .image_container {
       display: flex;
-      flex-direction: column;
+      flex-direction: column !important;
       align-items: flex-start;
       color: #949494;
       column-gap: 50px;
   }
 .image_container img {
-    width: 100%;
+    width: 100% !important;
 }
 .image_container div{
   margin: 20px auto;
+  text-align: center;
 }
 .post_container{
   flex-direction: column;
@@ -72,6 +73,9 @@ layout: default
   .sidebar{
     text-align: left;
     flex: 15%;
+  }
+  .sidebar h3{
+    font-size: larger;
   }
   .post-content{
     flex: 60%;
