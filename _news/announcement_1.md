@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ziliang attended the 22nd international meeting on lithium batteries. 
-date: 2015-10-22 15:59:00-0400
+title: Ziliang attended the 22nd IMLB at Hong Kong
+date: 2024-6-16 
 inline: true
 related_posts: false
 author: Ziliang Wang
