@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ziliang visited 
-date: 2024-6-16 
+title: Ziliang attended 22nd IMLB 
+date: 2024-06-16 
 inline: true
 related_posts: false
 author: Ziliang Wang
