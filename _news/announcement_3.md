@@ -7,4 +7,4 @@ related_posts: false
 author: Ziliang Wang
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Welcome to Ziliang Wang's website! :sparkles: :smile:
