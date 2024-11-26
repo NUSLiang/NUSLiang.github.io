@@ -5,7 +5,7 @@ copyright: https://doi.org/10.15223/policy-029
 issn: 0897-4756, 1520-5002
 shorttitle: Phase Stability of Li-rich Layered Cathodes
 url: https://pubs.acs.org/doi/10.1021/acs.chemmater.2c00927
-doi: 10.1021/acs.chemmater.2c00927,
+doi: 10.1021/acs.chemmater.2c00927
 language: en
 number: 13
 urldate: 2024-11-21 16:40:16

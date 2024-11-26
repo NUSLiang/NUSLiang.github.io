@@ -55,7 +55,8 @@ layout: default
 }
 
   .image_container h2{
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 500;
   }
   .image_container h4{
     font-size: 17px;
@@ -98,17 +99,19 @@ layout: default
       <div class="sidebar">  
         {% if page.pdf %}
         <h3>PDF</h3>
-        <a href="{{page.pdf}}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i><span>  PDF</span></a>
+        <a href="{{page.pdf}}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i><span> Preview</span></a>
+        <br>
         <br>
         {% endif %}
         {% if page.github %}
         <h3>Github</h3>
         <a href="https://github.com/{{ page.github }}" target="_blank" rel="noopener no-referrer"><i class="fab fa-github"></i>  {{ page.github }}</a>
         <br>
+        <br>
         {% endif %}
         {% if page.doi %}
         <h3>DOI</h3>
-        <a href="https://github.com/{{ page.doi }}" target="_blank" rel="noopener no-referrer"><i class="fas fa-external-link-alt"></i>  {{ page.doi }}</a>
+        <a href="https://github.com/{{ page.doi }}" target="_blank" rel="noopener no-referrer"><i class="fas fa-external-link-alt"></i>  <span style="font-size: small;">{{ page.doi }}</span></a>
         {% endif %}
       </div>
       <div class="post-content"> 
