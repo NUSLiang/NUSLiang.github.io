@@ -99,7 +99,7 @@ layout: default
       <div class="sidebar">  
         {% if page.pdf %}
         <h3>PDF</h3>
-        <a href="{{page.pdf}}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i><span> Preview</span></a>
+        <a href="{{ page.pdf | absolute_url }}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i><span> Preview</span></a>
         <br>
         <br>
         {% endif %}

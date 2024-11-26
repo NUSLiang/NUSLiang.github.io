@@ -76,20 +76,17 @@ layout: default
         color: grey;
     }
     .publishs div p{
-        font-size: smaller;
+        font-size: small;
         color: grey;
     }
 </style>
 
 <h1>{{ page.title }}</h1>
 <hr>
+
 <div class="publish_container"> 
-{% for post in site.publications %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% if forloop.first %}
-    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-    <hr>
-    {% endif %}
+    {% assign publishs = site.publications  %}
+    {% for post in publishs %}
     <div class="publishs">                    
         <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> </a>
         <div>
@@ -97,7 +94,7 @@ layout: default
             <p>{{ post.ref }}</p>
         </div>                    
     </div>
-{% endfor %}
+    {% endfor %}
 </div>
 
 

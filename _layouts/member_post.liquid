@@ -93,7 +93,7 @@ layout: default
       <div class="sidebar">  
         {% if page.cv %}
         <h3>CV</h3>
-        <a href="{{page.cv}}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i> <span>   </span>{{ page.name}} <span> </span></a>
+        <a href="{{page.cv | absolute_url }}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i> <span>   </span>{{ page.name}} <span> </span></a>
         <br>
         <br>
         {% endif %}
