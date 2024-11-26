@@ -5,7 +5,7 @@ category: Battery
 external_link: https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.2c00927
 ---
 
-In the critical area of sustainable energy storage, solid-state batteries (see <strong>Figure 1</strong>) have attracted considerable attention due to their potential safety, energy-density, and cycle-life benefits...
+In the critical area of sustainable new next-gen energy storage, solid-state batteries (see <strong>Figure 1</strong>) have attracted considerable attention due to their potential safety, energy-density, and cycle-life benefits...
 
 **Relevant references**
 

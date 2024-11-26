@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Yuheng visited Zhejiang University and Jilin University
-date: 2015-10-22 15:59:00-0400
+title: Ziliang attended 22nd IMLB 
+date: 2024-06-16 
 inline: true
 related_posts: false
 author: Ziliang Wang
