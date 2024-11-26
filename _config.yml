@@ -196,6 +196,8 @@ newsletter:
 collections:
   members:
     output: true
+  publications:
+    output: true
   research:
     output: true
 
@@ -204,6 +206,7 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
+
   projects:
     output: true
     permalink: /:collection/:title/
@@ -292,6 +295,11 @@ defaults:
       type: "members"
     values:
       layout: "member_post"
+  - scope:
+      path: "_publication"
+      type: "publication"
+    values:
+      layout: "publication_post"
 
   - scope:
       path: "_research"

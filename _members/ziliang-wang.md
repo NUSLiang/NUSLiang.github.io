@@ -4,7 +4,7 @@ degrees: "Dr., MRSC"
 image: "assets/img/prof_pic.jpg"
 position: "Principal Investigator"
 email: "ziliang.wang@northwestern.edu"
-cv: "" #add your cv here
+cv: assets/img/cv/group_logo.pdf #add your cv here
 github: NUSLiang
 orcid: 0000-0002-6705-2329
 twitter: "Ziliang_W" # change the username

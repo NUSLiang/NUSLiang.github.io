@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<style>
+@media screen and (max-width: 768px) {
+    .image_container {
+      display: flex;
+      flex-direction: column !important;
+      align-items: flex-start;
+      color: #949494;
+      column-gap: 50px;
+  }
+.image_container img {
+    width: 100% !important;
+}
+.image_container div{
+  margin: 20px auto;
+  text-align: center;
+}
+.post_container{
+  flex-direction: column;
+}
+.sidebar{
+  border-top: 1px solid;
+  padding-top: 20px;
+  border-bottom: 1px solid;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+}
+@media screen and (min-width: 768px) {
+  .image_container{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    color: #949494;
+    column-gap: 50px;
+  }
+  .image_container img{
+    width: 200px;
+  }
+  .sidebar{
+    text-align: left;
+    flex: 15%;
+  }
+  .post_container{
+    flex-direction: row;
+  }
+}
+.post_container{
+  display: flex;
+  max-width: 930px;
+  margin-top: 25px;
+}
+
+  .image_container h2{
+    font-size: 40px;
+  }
+  .image_container h4{
+    font-size: 17px;
+    color: #a8a8a8;
+  }
+  .image_container img{
+    width: 200px;
+  }
+  .post_container{
+    display: flex;
+    max-width: 930px;
+    flex-direction: row;
+    margin-top: 25px;
+  }
+  .sidebar{
+    text-align: left;
+    flex: 15%;
+  }
+  .sidebar h3{
+    font-size: larger;
+  }
+  .post-content{
+    flex: 60%;
+  }
+</style>
+
+    <div class="image_container">
+      <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+      <div>
+        <h2>{{ page.title }}</h2>
+        {% if page.author %}
+        <h4>{{ page.author }}</h4>
+        {% endif %}
+        {% if page.ref %}
+        <h4>{{ page.ref }}</h4>
+        {% endif %}
+      </div>
+    </div>
+    <div class="post_container">
+      <div class="sidebar">  
+        {% if page.pdf %}
+        <h3>PDF</h3>
+        <a href="{{page.pdf}}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i> <span>   </span>{{ page.pdf}} <span> </span></a>
+        {% endif %}
+        <br>
+        <br>
+        {% if page.github %}
+        <h3>Github</h3>
+        <a href="https://github.com/{{ page.github }}" target="_blank" rel="noopener no-referrer"><i class="fab fa-github"></i>  {{ page.github }}</a>
+        {% endif %}
+        <br>
+        <br>
+        {% if page.doi %}
+        <h3>DOI</h3>
+        <a href="https://github.com/{{ page.doi }}" target="_blank" rel="noopener no-referrer"><i class="fas fa-external-link-alt"></i>  {{ page.doi }}</a>
+        {% endif %}
+      </div>
+      <div class="post-content"> 
+        <h2>Abstract</h2> 
+        {{ content }}
+        <h4>Miscellaneous</h4>
+        <p>Working on it</p>
+      </div>
+    </div>

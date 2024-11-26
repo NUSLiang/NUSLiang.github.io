@@ -3,7 +3,6 @@ layout: page
 permalink: /Publications/
 title: Publications
 nav: true
-selected_papers: true
 nav_order: 3
 ---
 <div class="bigspacer"></div>
@@ -18,14 +17,3 @@ nav_order: 3
 	</div>
 </div>
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>

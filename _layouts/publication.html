@@ -3,7 +3,7 @@ layout: default
 ---
 <style>
     @media screen and (max-width: 1024px) {
-        .member_container {
+        .publish_container {
         max-width: 930px;
         margin-top: 20px;
         display: grid;
@@ -11,14 +11,14 @@ layout: default
         gap: 20px; /* Adjust spacing between items */
         width: 100%;
     }
-    .members img {
+    .publishs img {
         width: 150px;
         height: auto;
         border-radius: 0px; /* Optional: Rounded corners */
     }
   }
     @media screen and (max-width: 768px) {
-        .member_container {
+        .publish_container {
         max-width: 930px;
         margin-top: 20px;
         display: grid;
@@ -26,22 +26,22 @@ layout: default
         gap: 20px; /* Adjust spacing between items */
         width: 100%;
     }
-    .members img {
+    .publishs img {
         width: 220px !important;
         height: auto;
         border-radius: 0px; /* Optional: Rounded corners */
     }
-    .members div h2{
+    .publishs div h2{
         font-size: 30px;
         text-decoration: none;
     }
-    .members div h4{
+    .publishs div h4{
         font-size: 18px;
         color: #b2b2b2;
     }
 }
 @media screen and (min-width: 1024px) {
-    .member_container {
+    .publish_container {
         max-width: 930px;
         margin-top: 20px;
         display: grid;
@@ -51,27 +51,27 @@ layout: default
     }
 }
 
-    .members {
+    .publishs {
         display: flex;
         flex-direction: row;
         align-items: flex-start; /* Center-align content */
         text-align: center;
     }
-    .members img {
+    .publishs img {
         width: 100px;
         height: auto;
         border-radius: 0px; /* Optional: Rounded corners */
     }
-    .members div{
+    .publishs div{
         width: 200px;
         text-align: left;
         padding-left: 20px;
     }
-    .members div h2{
+    .publishs div h2{
         font-size: 17px;
         text-decoration: none;
     }
-    .members div h4{
+    .publishs div h4{
         font-size: 15px;
         color: grey;
     }
@@ -79,14 +79,14 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <hr>
-<div class="member_container"> 
-    {% assign sorted_members = site.members | sort: "rank" %}
-    {% for post in sorted_members %}
-    <div class="members">                    
-        <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.name }}"> </a>
+<div class="publish_container"> 
+    {% assign publishs = site.publication  %}
+    {% for post in publishs %}
+    <div class="publishs">                    
+        <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> </a>
         <div>
-            <a href="{{ post.url | relative_url }}"> <h2>{{ post.name }}, <span>{{ post.degrees }}</span></h2></a>
-            <h4>{{ post.position }}</h4>
+            <a href="{{ post.url | relative_url }}"> <h2>{{ post.title }}</h2></a>
+            
         </div>                    
     </div>
     {% endfor %}
