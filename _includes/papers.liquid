@@ -1,0 +1,29 @@
+<style>
+    .news{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        gap: 20px; /* Adjust spacing between items */
+        width: 100%;
+    }
+    .news div p{
+        font-size: smaller;
+        color: grey;
+        margin-top: 0px;
+    }
+
+</style>
+<div class="news">
+    {% assign publish_size = site.publications %}
+    {% for post in publish_size limit: 3 %}
+    <div> 
+        <a href="{{ post.url }}"><i class="fas fa-newspaper"></i><span> </span>{{ post.title }}</a>
+        {% if post.author %}
+            <p>Author: <span> </span>{{ post.author }}</p>
+        {% endif %}
+        {% if post.date %}
+            <p>Uploaded Date: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

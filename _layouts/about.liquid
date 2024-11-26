@@ -56,21 +56,18 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
     <hr>
-    <!-- Latest posts -->
+    {% comment %} <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
-    {% endif %}
-    <hr>
+    {% endif %} {% endcomment %}
     <!-- Selected papers -->
-    {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Papers</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
 
     <!-- Social -->
     {% if page.social %}
