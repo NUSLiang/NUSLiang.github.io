@@ -1,5 +1,5 @@
 ---
-layout: publication
+layout: publications
 permalink: /Publications/
 title: Publications
 nav: true
@@ -16,4 +16,3 @@ nav_order: 3
 		</div>
 	</div>
 </div>
-

@@ -295,9 +295,10 @@ defaults:
       type: "members"
     values:
       layout: "member_post"
+      
   - scope:
-      path: "_publication"
-      type: "publication"
+      path: "_publications"
+      type: "publications"
     values:
       layout: "publication_post"
 
