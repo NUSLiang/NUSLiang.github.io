@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Ziliang visited the city university of hong kong
-date: 2015-11-07 16:11:00-0400
+title: Ziliang visited the City University of Hong Kong
+date: 2024-07-21 
 inline: false
 related_posts: false
 author: Ziliang Wang
 ---
+
+Ziliang visited the [City University of Hong Kong](https://www.cityu.edu.hk).
 
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
