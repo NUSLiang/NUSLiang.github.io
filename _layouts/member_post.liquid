@@ -94,21 +94,21 @@ layout: default
         {% if page.cv %}
         <h3>CV</h3>
         <a href="{{page.cv}}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i> <span>   </span>{{ page.name}} <span> CV</span></a>
+        <br>
+        <br>
         {% endif %}
-        <br>
-        <br>
         {% if page.scholar %}
         <h3>Google Scholar</h3>
         <a href="https://scholar.google.com/citations?user={{page.scholar}}" target="_blank" rel="noopener noreferrer"><i class="fas fa-school"></i>  {{ page.name }}</a>
+        <br>
+        <br>
         {% endif %}
-        <br>
-        <br>
         {% if page.github %}
         <h3>Github</h3>
         <a href="https://github.com/{{ page.github }}" target="_blank" rel="noopener no-referrer"><i class="fab fa-github"></i>  {{ page.github }}</a>
-        {% endif %}
         <br>
         <br>
+      {% endif %}
         {% if page.twitter %}
         <h3>Twitter X</h3>
         <a href="https://x.com/{{ page.twitter }}" target="_blank"><i class="fab fa-twitter"></i><span>  </span>@{{ page.twitter}}</a>
@@ -118,9 +118,9 @@ layout: default
         {% if page.orcid %}
         <h3>Orcid</h3>
         <a href="https://orcid.org/{{ page.orcid }}"><i class="fab fa-orcid"></i>  {{ page.orcid }}</a>
+        <br>
+        <br>
         {% endif %}
-        <br>
-        <br>
         {% if page.email %}
         <h3>Email</h3>
         <a href="mailto:{{ page.email }}"><i class="fas fa-inbox"></i> {{ page.email }}</a>
