@@ -47,7 +47,7 @@ layout: default
       </h1>  
       {{ content }}
     </div>
-
+    <hr>
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2 style="margin-top:50px">
@@ -55,15 +55,15 @@ layout: default
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
-
+    <hr>
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Papers</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Papers</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
-
+    <hr>
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
