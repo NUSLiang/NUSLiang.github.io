@@ -7,4 +7,4 @@ related_posts: false
 author: Ziliang Wang
 ---
 
-Welcome to Ziliang Wang&#39;s website! :sparkles: :smile:
+Welcome to my website! :sparkles: :smile:
