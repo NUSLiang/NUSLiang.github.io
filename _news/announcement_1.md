@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ziliang attended the 22nd IMLB at Hong Kong
+title: Ziliang visited Zhejiang University and Jilin University
 date: 2024-6-16 
 inline: true
 related_posts: false
