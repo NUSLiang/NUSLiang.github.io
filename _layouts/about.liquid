@@ -59,9 +59,9 @@ layout: default
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Papers</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
       </h2>
-      {% include latest_posts.liquid %}
+      {% include latest_posts.liquid | limit: 3 %}
     {% endif %}
     <hr>
     <!-- Selected papers -->

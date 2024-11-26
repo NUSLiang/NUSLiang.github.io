@@ -3,6 +3,7 @@ layout: page
 permalink: /Publications/
 title: Publications
 nav: true
+selected_papers: true
 nav_order: 3
 ---
 <div class="bigspacer"></div>
