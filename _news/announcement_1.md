@@ -7,4 +7,4 @@ related_posts: false
 author: Ziliang Wang
 ---
 
-A simple inline announcement.
+  Dr. Ziliang Wang presented his poster on the 22nd International Meeting on Lithium Batteries ([IMLB](https://www.imlb.org)) on behalf of Wolverton research group.
