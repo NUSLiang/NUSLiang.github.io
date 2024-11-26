@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Openings for PhD and postdocs at HKUST(GZ)
+title: Testing our new group website!
 date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
