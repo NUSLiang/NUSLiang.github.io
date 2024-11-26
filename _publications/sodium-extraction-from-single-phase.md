@@ -12,7 +12,7 @@ urldate: 2024-11-21 16:40:16
 journal: Chemistry of Materials
 author: Lu, Zhi and Hao, Shiqiang and Wang, Ziliang and Kim, Hyungjun and Wolverton, Christopher
 month: jul
-year: 2024
+year: 2022
 pages: 6381--6391
 pdf: assets/img/cv/group_logo.pdf
 ref: Helm et al. ACS Appl. Energy Mater. 7, 1735 (2024) ## Edit the reference to yours
