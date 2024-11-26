@@ -83,7 +83,6 @@ layout: default
 <div class="publish_container"> 
     {% assign publishs = site.publications  %}
     {% for post in publishs %}
-    {% assign currentdate = post.date | date: "%Y" %}
     <div class="publishs">                    
         <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> </a>
         <div>
