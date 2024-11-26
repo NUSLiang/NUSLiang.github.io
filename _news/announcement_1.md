@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ziliang visited Zhejiang University and Jilin University
+title: Ziliang visited 
 date: 2024-6-16 
 inline: true
 related_posts: false
