@@ -27,7 +27,7 @@ layout: default
         width: 100%;
     }
     .publishs img {
-        width: 220px !important;
+        width: 180px !important;
         height: auto;
         border-radius: 0px; /* Optional: Rounded corners */
     }
@@ -85,7 +85,7 @@ layout: default
 <hr>
 {% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
-<h2>{{ year.title }}</h2>
+<h2>{{ year.year }}</h2>
 <div class="publish_container">
   {% for post in year.items %}
   <div class="publishs">                    
