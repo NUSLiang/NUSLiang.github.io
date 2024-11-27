@@ -21,25 +21,25 @@ image: assets/img/publication_preview/paper_img.jpg
 
 **Example 1:** Structured Chemical Formula
 
-For the compound `\ce{Li3+Sb1-xPxS4 (0 ≤ x ≤ 0.2)}`, using mhchem:
+For the compound `$\ce{Li3+Sb1-xPxS4 (0 ≤ x ≤ 0.2)}$`, using mhchem:
 
-\ce{Li3+Sb1-xPxS4 (0 ≤ x ≤ 0.2)}
+$\ce{Li3+Sb1-xPxS4 (0 ≤ x ≤ 0.2)}$
 
 This ensures subscript notation and proper alignment for the range of 𝑥
 
 **Example 2:** Physical Constants
 
-\C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}
+\$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$
 
 **Example 3:** Simple Reaction
 
-\\ce{2H2 + O2 -> 2H2O}
+\$\ce{2H2 + O2 -> 2H2O}$
 
 **Example 4:** Reversible Reaction
 
-\\ce{N2 + 3H2 <=> 2NH3}
+\$\ce{N2 + 3H2 <=> 2NH3}$
 
 **Example 5:** Ionization Example
 
-\\ce{H2O(l) -> H+ + OH-}
+\$\ce{H2O(l) -> H+ + OH-}$
 
