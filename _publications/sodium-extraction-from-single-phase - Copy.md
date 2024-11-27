@@ -14,9 +14,9 @@ author: Lu, Zhi and Hao, Shiqiang and Wang, Ziliang and Kim, Hyungjun and Wolver
 month: jul
 year: 2023
 pages: 6381--6391
-pdf: assets/img/cv/group_logo.pdf
+pdf: assets/img/paper-pdf/group_logo.pdf
 ref: Helm et al. ACS Appl. Energy Mater. 7, 1735 (2024) ## Edit the reference to yours
-image: assets/img/publication_preview/paper_img.jpg
+image: assets/img/publication_preview/brownian-motion.gif
 ---
 
 ## Hello world
