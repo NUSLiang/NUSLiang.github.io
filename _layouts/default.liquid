@@ -73,5 +73,18 @@
     {% include scripts/jekyll_tabs.liquid %}
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+      </script>
   </body>
 </html>
