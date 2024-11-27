@@ -84,7 +84,15 @@ layout: default
     }
 </style>
 
-<h1>{{ page.title }}</h1>
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+			<p>Full list of our publications are available on
+				<a class="off" href="https://scholar.google.com/citations?user=2uSFOxgAAAAJ&hl=en&oi=ao">Google Scholar</a>.
+			</p>
+		</div>
+	</div>
+</div>
 <br>
 {% assign postsByYear = site.publications | group_by: "year" %}
 {% for year in postsByYear %}

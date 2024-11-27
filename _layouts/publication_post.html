@@ -84,6 +84,10 @@ layout: default
   .post-content{
     flex: 60%;
   }
+  .added-details{
+    color: grey;
+    word-break: break-all;
+  }
 </style>
 
     <div class="image_container">
@@ -122,7 +126,27 @@ layout: default
         <h2>Abstract</h2> 
         {{ content }}
         <hr>
-        <h4>Miscellaneous</h4>
-        <p>Working on it</p>
+        <h4>Added Details</h4>
+        {% if page.volume %}
+        <p class="added-details"> 📙 Volume:  <span style="font-size: small;">{{ page.volume }}</span></p>
+        {% endif %}
+        {% if page.copyright %}
+        <p class="added-details"><i class="far fa-copyright"> </i>Copyright:<a href="{{ page.copyright }}" target="_blank" rel="noopener noreferrer"></a>  <span style="font-size: small;">{{ page.copyright }}</span></p>
+        {% endif %}
+        {% if page.issn %}
+        <p class="added-details"><i class="fas fa-list-ol"> </i> ISSN:  <span style="font-size: small;">{{ page.issn }}</span></p>
+        {% endif %}
+        {% if page.url %}
+        <p class="added-details"><i class="fas fa-link"> </i> URL:  <span style="font-size: small;">{{ page.url }}</span></p>
+        {% endif %}
+        {% if page.urldate %}
+        <p class="added-details"><i class="fas fa-calendar-times"> </i> Uploaded Date:  <span style="font-size: small;">{{ page.urldate |  date: '%B %d, %Y' }}</span></p>
+        {% endif %}
+        {% if page.journal %}
+        <p class="added-details"><i class="fas fa-journal-whills"> </i>Journal:  <span style="font-size: small;">{{ page.journal }}</span></p>
+        {% endif %}
+        {% if page.pages %}
+        <p class="added-details"><i class="fas fa-file"> </i> Pages:  <span style="font-size: small;">{{ page.pages }}</span></p>
+        {% endif %}
       </div>
     </div>
