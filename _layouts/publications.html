@@ -83,18 +83,20 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <hr>
-
-<div class="publish_container"> 
-    {% assign publishs = site.publications  %}
-    {% for post in publishs %}
-    <div class="publishs">                    
-        <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> </a>
-        <div>
-            <a href="{{ post.url | relative_url }}"> <h2>{{ post.title }}</h2></a>
-            <p>{{ post.ref }}</p>
-        </div>                    
-    </div>
-    {% endfor %}
+{% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+<h2>{{ year.title }}</h2>
+<div class="publish_container">
+  {% for post in year.items %}
+  <div class="publishs">                    
+    <a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> </a>
+    <div>
+        <a href="{{ post.url | relative_url }}"> <h2>{{ post.title }}</h2></a>
+        <p>{{ post.ref }}</p>
+    </div>                    
 </div>
+  {% endfor %}
+</div>
+{% endfor %}
 
 
