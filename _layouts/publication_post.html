@@ -131,19 +131,19 @@ layout: default
         <p class="added-details"> 📙 Volume:  <span style="font-size: small;">{{ page.volume }}</span></p>
         {% endif %}
         {% if page.copyright %}
-        <p class="added-details"><i class="far fa-copyright"> </i>Copyright:<a href="{{ page.copyright }}" target="_blank" rel="noopener noreferrer"></a>  <span style="font-size: small;">{{ page.copyright }}</span></p>
+        <p class="added-details"><i class="far fa-copyright"> </i> Copyright:<a href="{{ page.copyright }}" target="_blank" rel="noopener noreferrer">{{ page.copyright }}</a>  <span style="font-size: small;"></span></p>
         {% endif %}
         {% if page.issn %}
         <p class="added-details"><i class="fas fa-list-ol"> </i> ISSN:  <span style="font-size: small;">{{ page.issn }}</span></p>
         {% endif %}
-        {% if page.url %}
-        <p class="added-details"><i class="fas fa-link"> </i> URL:  <span style="font-size: small;">{{ page.url }}</span></p>
+        {% if page.url_paper %}
+        <p class="added-details"><i class="fas fa-link"> </i> URL:<a href="{{ page.url_paper }}" target="_blank" rel="noopener noreferrer">{{ page.url_paper }}</a>  <span style="font-size: small;"></span></p>
         {% endif %}
         {% if page.urldate %}
         <p class="added-details"><i class="fas fa-calendar-times"> </i> Uploaded Date:  <span style="font-size: small;">{{ page.urldate |  date: '%B %d, %Y' }}</span></p>
         {% endif %}
         {% if page.journal %}
-        <p class="added-details"><i class="fas fa-journal-whills"> </i>Journal:  <span style="font-size: small;">{{ page.journal }}</span></p>
+        <p class="added-details"><i class="fas fa-journal-whills"> </i> Journal:  <span style="font-size: small;">{{ page.journal }}</span></p>
         {% endif %}
         {% if page.pages %}
         <p class="added-details"><i class="fas fa-file"> </i> Pages:  <span style="font-size: small;">{{ page.pages }}</span></p>
