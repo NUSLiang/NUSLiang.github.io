@@ -1,5 +1,5 @@
 ---
-title: $\ce{Li3Sb_{1-x}P_xS4 (0 \leq x \leq 0.5)}$
+title: "Phase Stability of Li-rich Layered Cathodes: Insight into the Debate over Solid Solutions vs Phase Separation"
 volume: 36
 copyright: https://doi.org/10.15223/policy-029
 issn: 0897-4756, 1520-5002
