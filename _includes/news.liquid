@@ -11,7 +11,11 @@
         color: grey;
         margin-top: 0px;
     }
-
+    @media screen and (max-width: 768px) {
+        .news {
+        grid-template-columns: repeat(2, 1fr) !important; /* 2 columns */
+    }
+    }
 </style>
 <div class="news">
     {% assign news_size = site.news %}

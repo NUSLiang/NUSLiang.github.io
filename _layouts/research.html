@@ -14,9 +14,10 @@ layout: default
     .text-content h5{
         font-size: medium;
         font-weight: 500;
+        color: grey;
     }
     .text-content{
-        margin-bottom: 150px;
+        margin-bottom: 0px;
     }
     @media screen and (min-width: 1024px) {
         .research_container{
@@ -48,12 +49,14 @@ layout: default
        display: flex;
        flex-direction: row;
        column-gap: 30px;
+       margin-bottom: 25px;
+       border-bottom: 1px solid;
+       padding-bottom: 25px;
     }
     .text-content{
         flex: 70%;
         display: flex;
         flex-direction: column;
-        margin-bottom: 120px;
     }
     .image-content{
         flex: 30%;
@@ -78,10 +81,14 @@ layout: default
         margin-bottom: 0px;
     }
     .image-content img{
-        max-width: 100%;    
+        max-width: 100% !important; 
+        width: 100%;   
     }
     .text-content h1{
         margin-top: 20px;
+    }
+    .external_link{
+         word-break: break-all;
     }
     }
     </style>
@@ -99,7 +106,7 @@ layout: default
           </p>
           <h5>Uploaded Date: <span> </span>{{ content.date |  date: '%B %d, %Y' }}</h5>
           <h5>Category: {{ content.category }}</h5>
-          <h5>External link: <a href="{{ content.external_link }}" target="_blank" rel="noopener noreferrer"></a>{{ content.external_link }}</h5>
+          <h5 class="external_link">External link: <a href="{{ content.external_link }}" target="_blank" rel="noopener noreferrer">{{ content.external_link }}</a></h5>
         </div>
         <div class="image-content">
           <img

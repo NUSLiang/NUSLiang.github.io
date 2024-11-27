@@ -83,7 +83,7 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <hr>
-{% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.publications | group_by_exp:"publications" %}
 {% for year in postsByYear %}
 <h2>{{ year.year }}</h2>
 <div class="publish_container">
