@@ -39,6 +39,9 @@ layout: default
         font-size: 18px;
         color: #b2b2b2;
     }
+    .year{
+        margin-top: 20px;
+    }
 }
 @media screen and (min-width: 1024px) {
     .publish_container {
@@ -85,7 +88,7 @@ layout: default
 <br>
 {% assign postsByYear = site.publications | group_by: "year" %}
 {% for year in postsByYear %}
-<h2 style="font-size: xx-large; border-top: 1px solid; border-bottom: 1px solid; padding: 20px 0px 20px 0px;">{{ year.name }}</h2>
+<h2 class="year" style="font-size: xx-large; border-top: 1px solid; border-bottom: 1px solid; padding: 20px 0px 20px 0px;">{{ year.name }}</h2>
 <div class="publish_container">
     {% for post in year.items %}
     <div class="publishs">                    

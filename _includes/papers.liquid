@@ -1,23 +1,23 @@
 <style>
-    .news{
+    .papers{
         margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* 3 columns */
         gap: 20px; /* Adjust spacing between items */
         width: 100%;
     }
-    .news div p{
+    .papers div p{
         font-size: smaller;
         color: grey;
         margin-top: 0px;
     }
     @media screen and (max-width: 768px) {
-        .news {
+        .papers {
         grid-template-columns: repeat(1, 1fr) !important; /* 1 column */
     }
     }
 </style>
-<div class="news">
+<div class="papers">
     {% assign publish_size = site.publications %}
     {% for post in publish_size limit: 3 %}
     <div> 
