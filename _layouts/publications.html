@@ -79,20 +79,13 @@ layout: default
         font-size: small;
         color: grey;
     }
-    @media screen and (min-width: 768px) {
-        .publish_container {
-        grid-template-columns: repeat(1, 1fr) !important; /* 3 columns */
-    }
-    }
 </style>
 
 <h1>{{ page.title }}</h1>
 <br>
-<hr>
 {% assign postsByYear = site.publications | group_by: "year" %}
 {% for year in postsByYear %}
-<h2 style="font-size: x-large; color: grey;">{{ year.name }}</h2>
-<hr>
+<h2 style="font-size: xx-large; border-top: 1px solid; border-bottom: 1px solid; padding: 20px 0px 20px 0px;">{{ year.name }}</h2>
 <div class="publish_container">
     {% for post in year.items %}
     <div class="publishs">                    
