@@ -1,5 +1,5 @@
 ---
-title: "Obtaining V2(PO4)3 by sodium extraction from single-phase NaxV2(PO4)3 (1 < x < 3) positive electrode materials"
+title: "Obtaining $\ce{V2(PO4)3}$ by sodium extraction from single-phase $\ce{NaxV2(PO4)3 (1 < x < 3)}$ positive electrode materials"
 volume: 36
 copyright: https://doi.org/10.15223/policy-029
 issn: 0897-4756, 1520-5002
