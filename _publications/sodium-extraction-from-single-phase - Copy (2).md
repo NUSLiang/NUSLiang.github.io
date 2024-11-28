@@ -15,7 +15,7 @@ month: nov
 year: 2020
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Chemical_map_JMCA.pdf
-#ref: Helm et al. ACS Appl. Energy Mater. 7, 1735 (2024) ## Edit the reference to yours
+ref: Singh B., Z. Wang, et al. J. Mater Chem. A ## Edit the reference to yours
 image: assets/img/publication_preview/Chemical_Map.jpg
 ---
 
