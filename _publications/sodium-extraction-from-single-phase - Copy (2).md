@@ -1,7 +1,7 @@
 ---
 title: "A Chemical Map of NaSiCON Electrode Materials for Sodium-ion Batteries"
 #volume: 36
-copyright: https://doi.org/10.15223/policy-029
+#copyright: https://doi.org/10.15223/policy-029
 #issn: 0897-4756, 1520-5002
 #shorttitle: Phase Stability of Li-rich Layered Cathodes
 url_paper: https://pubs.rsc.org/en/content/articlelanding/2021/ta/d0ta10688g
