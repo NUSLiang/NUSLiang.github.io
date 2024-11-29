@@ -1,23 +1,26 @@
 ---
-title: "Obtaining V2(PO4)3 by sodium extraction from single-phase NaxV2(PO4)3 (1 < x < 3) positive electrode materials"
-volume: 36
-copyright: https://doi.org/10.15223/policy-029
-issn: 0897-4756, 1520-5002
-shorttitle: Phase Stability of Li-rich Layered Cathodes
-url_paper: https://pubs.acs.org/doi/10.1021/acs.chemmater.2c00927
-doi: 10.1021/acs.chemmater.2c00927
+title: "Phase Stability and Sodium-Vacancy Orderings in a NaSICON Electrode"
+#volume: 36
+#copyright: https://doi.org/10.15223/policy-029
+#issn: 0897-4756, 1520-5002
+#shorttitle: Phase Stability of Li-rich Layered Cathodes
+url_paper: http://dx.doi.org/10.1039/D1TA09249A
+doi: 10.1039/D1TA09249A
 language: en
-number: 13
-urldate: 2024-11-21 16:40:16
-journal: Chemistry of Materials
-author: Lu, Zhi and Hao, Shiqiang and Wang, Ziliang and Kim, Hyungjun and Wolverton, Christopher
-month: jul
-year: 2022
-pages: 6381--6391
-pdf: assets/img/paper-pdf/group_logo.pdf
-ref: Helm et al. ACS Appl. Energy Mater. 7, 1735 (2024) ## Edit the reference to yours
-image: assets/img/publication_preview/paper_img.jpg
+#number: 13
+urldate: 2021-12-02
+journal: Journal of Materials Chemistry A
+author: Wang Z., Park S., Deng Z., Carlier D., Chotard J.-N., Croguennec L., Gautam, G. S., Cheetham A. K., Masquelier C. and Canepa P.
+month: dec
+year: 2021
+#pages: 6381--6391
+pdf: assets/img/paper-pdf/Phase_Stability_NaSICON.pdf
+ref: Wang Z. et al., J. Mater. Chem. A ## Edit the reference to yours
+image: assets/img/publication_preview/Phase_Stability.jpg
 ---
+
+We elucidate the thermodynamics of sodium (Na) intercalation into the sodium super-ionic conductor (NaSICON)-type electrode, Na<sub>x</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub>, for promising Na-ion batteries with high-power density. This is the first report of a computational temperature-composition phase diagram of the NaSICON-type electrode Na<sub>x</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub>. Based on our computational data, we identify a thermodynamically stable phase with a composition of Na<sub>2</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> and describe its structural features. We also identify another metastable configuration that can occur at room temperature, namely Na<sub>3.5</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub>. We unveil the crystal-structure and the electronic-structure origins of the ground-state compositions associated with specific Na/vacancy arrangements, which are driven by charge orderings on the vanadium sites. These results are significant for the optimization of high-energy and power density electrodes for sustainable Na-ion batteries.
+
 
 **Example 1:** Structured Chemical Formula
 
