@@ -15,7 +15,7 @@ month: nov
 year: 2020
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Chemical_map_JMCA.pdf
-ref: Singh B.,* Wang Z.,* Park S., Gautam G. S., Chotard J.-N., Croguennec L., Carlier D., Cheetham A. K., Masquelier C. and Canepa P.; J. Mater. Chem. A - HOT Papers. ## Edit the reference to yours
+ref: Singh B. et al., J. Mater. Chem. A - HOT Papers. ## Edit the reference to yours
 image: assets/img/publication_preview/Chemical_Map.jpg
 ---
 
