@@ -15,7 +15,7 @@ month: dec
 year: 2021
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Phase_Stability_NaSICON.pdf
-ref: Wang Z. et al., J. Mater. Chem. A ## Edit the reference to yours
+ref: Wang Z. et al., J. Mater. Chem. A - HOT Papers ## Edit the reference to yours
 image: assets/img/publication_preview/Phase_Stability.jpg
 ---
 
