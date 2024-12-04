@@ -8,11 +8,11 @@ url_paper: https://pubs.rsc.org/en/content/articlelanding/2021/ta/d0ta10688g
 doi: 10.1039/D0TA10688G
 language: en
 #number: 13
-urldate: 2020-11-23
+urldate: 2021-01-10
 journal: Journal of Materials Chemistry A
 author: Singh B.,* Wang Z.,* Park S., Gautam G. S., Chotard J.-N., Croguennec L., Carlier D., Cheetham A. K., Masquelier C. and Canepa P.
 month: nov
-year: 2020
+year: 2021
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Chemical_map_JMCA.pdf
 ref: Singh B. et al., J. Mater. Chem. A - HOT Papers. ## Edit the reference to yours
