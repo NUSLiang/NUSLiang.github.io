@@ -5,7 +5,7 @@ title: "Crystal Structure of Na<sub>x</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</
 #issn: 0897-4756, 1520-5002
 #shorttitle: Phase Stability of Li-rich Layered Cathodes
 url_paper: https://pubs.acs.org/doi/10.1021/acs.chemmater.1c04033
-doi: http://dx.doi.org/10.1021/acs.chemmater.1c04033
+doi: 10.1021/acs.chemmater.1c04033
 language: en
 #number: 13
 urldate: 2022-01-12 
