@@ -1,5 +1,5 @@
 ---
-title: "Obtaining V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> by Sodium Extraction from Single-Phase Na<xub>x</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> (1 $\le$ x $\le$ 3) Positive Electrode Materials"
+title: "Obtaining V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> by Sodium Extraction from Single-Phase Na<xub>x</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub> (1 < x < 3) Positive Electrode Materials"
 #volume: 36
 #copyright: https://doi.org/10.15223/policy-029
 #issn: 0897-4756, 1520-5002
