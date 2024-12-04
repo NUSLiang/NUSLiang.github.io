@@ -8,11 +8,11 @@ url_paper: https://pubs.acs.org/doi/10.1021/acs.chemmater.1c04033
 doi: http://dx.doi.org/10.1021/acs.chemmater.1c04033
 language: en
 #number: 13
-urldate: 2021-12-29 
+urldate: 2022-01-12 
 journal: Chemistry of Materials
 author: Park S., Wang Z., Deng Z., Moog I., Canepa P.*; Fauth F., Carlier D., Croguennec L., Masquelier C., Chotard J.-N.
-month: dec
-year: 2021
+month: jan
+year: 2022
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Crystal_Structure_NaSICON.pdf
 ref: Park S. et al., Chem. Mater. ## Edit the reference to yours
