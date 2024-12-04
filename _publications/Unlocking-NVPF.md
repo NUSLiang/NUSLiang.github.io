@@ -5,7 +5,7 @@ title: "Unlocking the Inaccessible Energy Density of Sodium Vanadium Fluorophosp
 #issn: 0897-4756, 1520-5002
 #shorttitle: Phase Stability of Li-rich Layered Cathodes
 url_paper: http://dx.doi.org/10.1021/acs.chemmater.3c00745
-doi: http://dx.doi.org/10.1021/acs.chemmater.3c00745
+doi: 10.1021/acs.chemmater.3c00745
 language: en
 #number: 13
 urldate: 2023-06-28 
