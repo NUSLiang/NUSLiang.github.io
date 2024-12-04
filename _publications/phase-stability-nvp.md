@@ -8,11 +8,11 @@ url_paper: http://dx.doi.org/10.1039/D1TA09249A
 doi: 10.1039/D1TA09249A
 language: en
 #number: 13
-urldate: 2021-12-02
+urldate: 2022-01-10
 journal: Journal of Materials Chemistry A
 author: Wang Z., Park S., Deng Z., Carlier D., Chotard J.-N., Croguennec L., Gautam, G. S., Cheetham A. K., Masquelier C. and Canepa P.
-month: dec
-year: 2021
+month: jan
+year: 2022
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Phase_Stability_NaSICON.pdf
 ref: Wang Z. et al., J. Mater. Chem. A - HOT Papers ## Edit the reference to yours
