@@ -94,7 +94,7 @@ layout: default
 	</div>
 </div>
 <br>
-{% assign postsByYear = site.publications | group_by: "year" %}
+{% assign postsByYear = site.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year in postsByYear %}
 <h2 class="year" style="font-size: xx-large; border-top: 1px solid; border-bottom: 1px solid; padding: 20px 0px 20px 0px;">{{ year.name }}</h2>
 <div class="publish_container">
@@ -106,9 +106,10 @@ layout: default
           <p>{{ post.ref }}</p>
       </div>                    
     </div>
-  {% endfor %}
+    {% endfor %}
 </div>
 {% endfor %}
+
 
 
 
