@@ -104,9 +104,7 @@ layout: default
           <p>
             {{ content.content | markdownify }}
           </p>
-          <h5><i class="fas fa-calendar-times"> </i> Uploaded Date: <span> </span>{{ content.date |  date: '%B %d, %Y' }}</h5>
           <h5><i class="fas fa-tags"> </i> Category: {{ content.category }}</h5>
-          <h5 class="external_link"><i class="fas fa-link"> </i> External link: <a href="{{ content.external_link }}" target="_blank" rel="noopener noreferrer">{{ content.external_link }}</a></h5>
         </div>
         <div class="image-content">
           <img

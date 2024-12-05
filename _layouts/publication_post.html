@@ -118,14 +118,14 @@ layout: default
         {% endif %}
         {% if page.doi %}
         <h3>DOI</h3>
-        <a href="https://github.com/{{ page.doi }}" target="_blank" rel="noopener no-referrer"><i class="fas fa-external-link-alt"></i>  <span style="font-size: small;">{{ page.doi }}</span></a>
+        <a href="http://dx.doi.org/{{ page.doi }}" target="_blank" rel="noopener no-referrer"><i class="fas fa-external-link-alt"></i>  <span style="font-size: small;">{{ page.doi }}</span></a>
         {% endif %}
       </div>
       <div class="post-content"> 
         <hr class="content-hr">
         <h2>Abstract</h2> 
         {{ content }}
-        <hr>
+        <!-- <hr>
         <h4>Added Details</h4>
         {% if page.volume %}
         <p class="added-details"> 📙 Volume:  <span style="font-size: small;">{{ page.volume }}</span></p>
@@ -147,6 +147,6 @@ layout: default
         {% endif %}
         {% if page.pages %}
         <p class="added-details"><i class="fas fa-file"> </i> Pages:  <span style="font-size: small;">{{ page.pages }}</span></p>
-        {% endif %}
+        {% endif %} -->
       </div>
     </div>
