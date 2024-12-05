@@ -8,11 +8,11 @@ url_paper: http://dx.doi.org/10.1021/acsmaterialslett.3c00610
 doi: 10.1021/acsmaterialslett.3c00610
 language: en
 #number: 13
-urldate: 2023-08-14 
+urldate: 2024-08-14 
 journal: ACS Materials Letters
 author: Wang Z., Mishra T., Xie W., Gautam G. S., Cheetham A. and Canepa P.
 month: aug
-year: 2023
+year: 2024
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/KMC_NaSICON.pdf
 ref: Wang Z. et al., ACS Materials Lett. ## Edit the reference to yours
