@@ -10,5 +10,5 @@ To accelerate discovery of new functional materials, multiscale computational me
 
 **Relevant references**
 
-1. [Wang Z., Park S., Deng Z. et al., J. Mater. Chem. A (2022)](https://pubs.rsc.org/en/content/articlelanding/2022/ta/d1ta09249a)
-2. [Wang Z., Mishra T., Xie W. et al., ACS Materials Lett. (2023)](https://pubs.acs.org/doi/10.1021/acsmaterialslett.3c00610)
+1. [Wang Z., Mishra T., Xie W. et al., ACS Materials Lett. (2023)](https://pubs.acs.org/doi/10.1021/acsmaterialslett.3c00610)
+2. [Wang Z., Park S., Deng Z. et al., J. Mater. Chem. A (2022)](https://pubs.rsc.org/en/content/articlelanding/2022/ta/d1ta09249a) 
