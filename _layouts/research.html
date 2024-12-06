@@ -95,7 +95,7 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <hr>
-    {% for content in site.research %}
+    {% for content in site.research | sort: "urldate" | reverse %}
     <div class="research_container">
         <div class="text-content">
           <h1>
