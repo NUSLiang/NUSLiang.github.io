@@ -26,7 +26,7 @@
             <p>Author: <span> </span>{{ post.author }}</p>
         {% endif %}
         {% if post.date %}
-            <p>Uploaded Date: <span> </span>{{ post.date | date: '%B %d, %Y' }}</p>
+            <p>Uploaded Date: <span> </span>{{ post.urldate | date: '%B %d, %Y' }}</p>
         {% endif %}
     </div>
     {% endfor %}
