@@ -18,15 +18,15 @@
     }
 </style>
 <div class="papers">
-    {% assign publish_size = site.publications %}
-    {% for post in publish_size limit: 3 %}
+    {% assign sorted_publications = site.publications | sort: "urldate" | reverse %}
+    {% for post in sorted_publications limit: 3 %}
     <div> 
         <a href="{{ post.url }}"><i class="fas fa-newspaper"></i><span> </span>{{ post.title }}</a>
         {% if post.author %}
             <p>Author: <span> </span>{{ post.author }}</p>
         {% endif %}
         {% if post.date %}
-            <p>Uploaded Date: <span> </span>{{ post.date |  date: '%B %d, %Y' }}</p>
+            <p>Uploaded Date: <span> </span>{{ post.date | date: '%B %d, %Y' }}</p>
         {% endif %}
     </div>
     {% endfor %}
