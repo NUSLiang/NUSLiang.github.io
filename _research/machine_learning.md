@@ -1,6 +1,6 @@
 ---
 title: Machine-Learning Development
-image: assets/img/machine-learning.pdf
+image: assets/img/machine_learning.pdf
 category: Machine-Learning
 #external_link: https://www.nature.com/articles/s41563-024-02023-7
 urldate: 2024-08-10
