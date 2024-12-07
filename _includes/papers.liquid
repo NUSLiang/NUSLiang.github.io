@@ -21,7 +21,7 @@
     {% assign sorted_publications = site.publications | sort: "urldate" | reverse %}
     {% for post in sorted_publications limit: 3 %}
     <div>
-        <a href="{{ post.url }}"><i class="fas fa-newspaper"></i><span> </span>{{ post.title }}</a>
+        <a href="{{ post.url }}"><i class="fas fa-paperclip"></i><span> </span>{{ post.title }}</a>
         {% if post.author %}
             <p>Author: <span> </span>{{ post.author }}</p>
         {% endif %}

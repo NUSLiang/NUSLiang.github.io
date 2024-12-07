@@ -18,7 +18,7 @@
     }
 </style>
 <div class="news">
-    {% assign news_size = site.news %}
+    {% assign news_size = site.news | sort: "date" | reverse %}
     {% for post in news_size limit: 3 %}
     <div> 
         <a href="{{ post.url }}"><i class="fas fa-newspaper"></i><span> </span>{{ post.title }}</a>
@@ -31,3 +31,4 @@
     </div>
     {% endfor %}
 </div>
+
