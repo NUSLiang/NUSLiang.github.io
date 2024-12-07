@@ -8,11 +8,11 @@ url_paper: http://dx.doi.org/10.1021/acs.chemmater.3c00745
 doi: 10.1021/acs.chemmater.3c00745
 language: en
 #number: 13
-urldate: 2024-06-28 
+urldate: 2023-06-28 
 journal: Chemistry of Materials
 author: van der Lubbe S., Wang Z., Lee D. K. J., and Canepa P.
 month: jun
-year: 2024
+year: 2023
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Unlocking_NVPF.pdf
 ref: van der Lubbe S. et al., Chem. Mater. ## Edit the reference to yours
