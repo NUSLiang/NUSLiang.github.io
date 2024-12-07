@@ -107,6 +107,7 @@ layout: default
         {% if page.pdf %}
         <h3>PDF</h3>
         <a href="{{ page.pdf | absolute_url }}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i><span> Preview</span></a>
+        <object data="{{ page.pdf | absolute_url }}" width="1000" height="1000" type="application/pdf"><i class="fas fa-file-pdf"></i><span> Preview</span></object>
         <br>
         <br>
         {% endif %}
