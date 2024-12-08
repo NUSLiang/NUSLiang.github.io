@@ -106,12 +106,17 @@ layout: default
       <div class="sidebar">  
         {% if page.pdf %}
         <h3>PDF</h3>
-        <div id="pdf-container" style="display: none;">
-          <object data="{{ page.pdf | absolute_url }}" width="1000" height="1000" type="application/pdf"></object>
-        </div>
+       <!-- Button to Open Lightbox -->
         <button id="preview-button">
           <i class="fas fa-file-pdf"></i><span> Preview</span>
         </button>
+        <!-- Lightbox for PDF -->
+        <div id="pdf-lightbox" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 1000; justify-content: center; align-items: center;">
+          <div style="position: relative; width: 80%; height: 80%;">
+            <button id="close-lightbox" style="position: absolute; top: 10px; right: 10px; background: #fff; border: none; padding: 10px; cursor: pointer;">Close</button>
+            <object data="{{ page.pdf | absolute_url }}" width="100%" height="100%" type="application/pdf" style="border: 1px solid #ccc;"></object>
+          </div>
+        </div>
         <br>
         <br>
         {% endif %}
@@ -157,8 +162,23 @@ layout: default
     </div>
 
     <script>
+      // Open Lightbox
       document.getElementById('preview-button').addEventListener('click', function () {
-    const pdfContainer = document.getElementById('pdf-container');
-    pdfContainer.style.display = pdfContainer.style.display === 'none' ? 'block' : 'none';
-  });
+        const lightbox = document.getElementById('pdf-lightbox');
+        lightbox.style.display = 'flex'; // Show the lightbox with flexbox centering
+      });
+    
+      // Close Lightbox
+      document.getElementById('close-lightbox').addEventListener('click', function () {
+        const lightbox = document.getElementById('pdf-lightbox');
+        lightbox.style.display = 'none'; // Hide the lightbox
+      });
+    
+      // Optional: Close lightbox on click outside the content
+      document.getElementById('pdf-lightbox').addEventListener('click', function (event) {
+        if (event.target === this) {
+          this.style.display = 'none'; // Hide the lightbox if clicked outside
+        }
+      });
     </script>
+
