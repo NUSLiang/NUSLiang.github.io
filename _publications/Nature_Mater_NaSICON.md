@@ -15,7 +15,7 @@ month: oct
 year: 2024
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Nature_Mater_NaSICON.pdf
-ref: Park S. et al., Nat. Mater. ## Edit the reference to yours
+ref: Park S. et al., Nature Materials ## Edit the reference to yours
 image: assets/img/publication_preview/Nature_Mater.jpg
 ---
 
