@@ -21,6 +21,6 @@ social: true # includes social icons at the bottom of the page
 
 **Welcome to Ziliang's Intelligent OpeN (ZION) Advanced Materials Lab.**
 
-Currently a postdoctoral fellow working at Ford-Northwestern Alliance with Prof. [Chris Wolverton](https://sites.google.com/site/wolvertonresearchgroup/). 
+Currently a <a href="https://sites.google.com/site/wolvertonresearchgroup/members/ziliang-wang?authuser=0" target="_blank">postdoctoral fellow</a> working at Ford-Northwestern Alliance with Prof. [Chris Wolverton](https://sites.google.com/site/wolvertonresearchgroup/). 
 
 
