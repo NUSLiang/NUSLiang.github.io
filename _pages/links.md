@@ -18,12 +18,17 @@ nav_order: 6
 
 <div class="bigspacer"></div>
 
-### Collaborators
+### Selected Collaborators
 <div class="bigspacer"></div>
 
 <div align="center">
-    <a href="https://www.mccormick.northwestern.edu/materials-science/" target="_blank"><img src="/assets/img/1.jpg" height=160></a>
-    <a href="https://uh.edu" target="_blank"><img src="/assets/img/10.jpg" height=160></a>
+    <a href="https://corporate.ford.com/articles/research-and-innovation.html" target="_blank"><img src="/assets/img/Ford.pdf" height=160></a>
+    <a href="https://www.anl.gov" target="_blank"><img src="/assets/img/Argonne.pdf" height=160></a>
+    <a href="https://www.uh.edu" target="_blank"><img src="/assets/img/UH.pdf" height=160></a>
+    <a href="https://www.cnrs.fr/en" target="_blank"><img src="/assets/img/CNRS.pdf" height=160></a>
+    <a href="https://www.lrcs.u-picardie.fr/en/" target="_blank"><img src="/assets/img/LRCS.pdf" height=160></a>
+    <a href="https://www.tiamat-energy.com" target="_blank"><img src="/assets/img/TIAMAT.pdf" height=160></a>
+    <a href="https://www.cityu.edu.hk" target="_blank"><img src="/assets/img/CityU.pdf" height=160></a>
 </div>
 
 <div class="bigspacer"></div>
