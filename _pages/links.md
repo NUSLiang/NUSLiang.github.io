@@ -29,7 +29,7 @@ nav_order: 6
     <a href="https://www.lrcs.u-picardie.fr/en/" target="_blank"><img src="/assets/img/LRCS.pdf" height=160></a>
     <a href="https://www.tiamat-energy.com" target="_blank"><img src="/assets/img/TIAMAT.pdf" height=160></a>
     <a href="https://www.cityu.edu.hk" target="_blank"><img src="/assets/img/CityU.pdf" height=160></a>
-    <a href="https://nus.edu.sg" target="_blank"><img src="/assets/img/NUS.pdf" height=160></a>
+    <a href="https://www.uchicago.edu/en" target="_blank"><img src="/assets/img/UChicago.pdf" height=160></a>
 </div>
 
 <div class="bigspacer"></div>
