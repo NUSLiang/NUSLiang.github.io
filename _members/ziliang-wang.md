@@ -1,6 +1,6 @@
 ---
 name: Ziliang Wang
-degrees: "Dr., MRSC"
+degrees: "PhD, AMRSC"
 image: "assets/img/prof_pic.jpg"
 position: "Principal Investigator"
 email: "ziliang.wang@northwestern.edu"
