@@ -1,5 +1,5 @@
 ---
-title: Proj3
+title: Transformation & Commercialization
 image: assets/img/Transformation.pdf
 category: Transformation & Commercialization
 external_link: http://dx.doi.org/10.1039/D1TA09249A
