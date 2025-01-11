@@ -8,7 +8,7 @@ urldate: 2024-08-10
 
 To accelerate discovery of new functional materials, multiscale computational methods are considered to support relevant research. Combining first-principles calculations with the state-of-art machine-learning (ML) modeling is one of the most attractive ways to speed up the related investigations. In such workflow (see <strong>Figure 2</strong>), accuracy of first-principles calculations and efficiency of ML are both covered to predict complex materials behaviors and the corresponding mechanisms, such as phase transformations in alkali-ion batteries, sodium-ion transport properties, etc. 
 
-We will develop a ML-based database for alkali-ion batteries utilizing DFT, cluster expansion, ML-interatomic potentials, and/or neural networks, to support discovery of novel next-generation battery materials. 
+We will develop a ML-based database for alkali-ion batteries utilizing DFT, cluster expansion, ML-interatomic potentials, and/or neural networks, to support discovery of next-generation battery materials. 
 
 **Relevant references**
 
