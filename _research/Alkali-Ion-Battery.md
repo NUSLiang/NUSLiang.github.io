@@ -1,7 +1,7 @@
 ---
 title: Rechargeale Alkali-Ion Battery
 image: assets/img/alkali_ion_battery.pdf
-category: Battery
+category: Energy Storage & Conversion
 #external_link: https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.2c00927
 urldate: 2024-10-10
 ---
