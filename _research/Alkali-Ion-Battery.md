@@ -10,7 +10,7 @@ Li-ion battery is one of the most developed and commercialized rechargeable batt
 
 Moreover, batteries beyond Li-ion metrics have also been actively studied, such as Na-ion, Ca-ion and Mg-ion batteries. Notably, all-solid-state battery frameworks have also been proposed and investigated recently.
 
-Combining first-principles calculations and experimental characterizations/engineerings, we work to discover and optimize battery components (i.e., cathode, anode, electrolyte, the corresponding interfaces, as well as all-solid-state batteries) to boost the development of battery materials science. We study thermodynamic properties, such as stabilities of various phases, phase transformations, cycling voltages, etc, as well as kinetic performance, such as alkali-ion diffusivities, migration tendencies, etc. We also construct machine-learning database for battery materiasl.
+Combining first-principles calculations and experimental characterizations/engineerings, we work to discover and optimize battery components (i.e., cathode, anode, electrolyte, the corresponding interfaces, as well as all-solid-state batteries) to boost the development of battery materials science. We study thermodynamic properties, such as stabilities of various phases, phase transformations, cycling voltages, etc, as well as kinetic performance, such as alkali-ion diffusivities, migration tendencies, etc. We also construct machine-learning database for battery materials.
 
 
 **Relevant references**
