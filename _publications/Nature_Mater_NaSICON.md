@@ -8,11 +8,11 @@ url_paper: https://www.nature.com/articles/s41563-024-02023-7
 doi: 10.1038/s41563-024-02023-7
 language: en
 #number: 13
-urldate: 2024-10-23
+urldate: 2025-2-1
 journal: Nature Materials
 author: Park S.,* Wang Z.,* Choudhary K., Chotard J.-N., Carlier D., Fauth F., Canepa P., Croguennec L., and Masquelier C.
 month: oct
-year: 2024
+year: 2025
 #pages: 6381--6391
 pdf: assets/img/paper-pdf/Nature_Mater_NaSICON.pdf
 ref: Park S. et al., Nature Materials ## Edit the reference to yours
