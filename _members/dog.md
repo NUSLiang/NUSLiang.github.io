@@ -1,6 +1,6 @@
 ---
 name: "Bobi2"
-degrees: "Mr."
+degrees: "MS."
 image: "assets/img/AI-Man2.pdf"
 position: "Graduate Student"
 website: "https://www.linkedin.com/in/ziliang-wang-9a79bb251/"
