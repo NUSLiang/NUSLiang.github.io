@@ -1,5 +1,5 @@
 ---
-name: "Cat"
+name: "Bobi1"
 degrees: "Dr."
 image: "assets/img/AI-Man1.pdf"
 position: "Research Fellow"
