@@ -5,6 +5,7 @@ image: "assets/img/prof_pic.jpg"
 position: "Principal Investigator"
 email: "ziliang.wang@northwestern.edu"
 cv: assets/img/cv/Ziliang_Resume_012025.pdf #add your cv here
+statement:assets/img/cv/CV_RP_TP_Pub_Ziliang.pdf
 github: NUSLiang
 orcid: 0000-0002-6705-2329
 twitter: "Ziliang_W" # change the username
