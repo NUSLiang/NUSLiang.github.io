@@ -131,14 +131,15 @@ layout: default
       <br>
       <br>
     {% endif %}
-  </div>
-  {% if page.supplementary %}
+{% if page.supplementary %}
     <h3>Supplementary</h3>
     <a href="{{page.supplementary | absolute_url }}" target="_blank" rel="noopener noreferrer" download
       ><i class="fas fa-sticky-note"></i> <span> </span>{{ page.name }}
       <span> </span
     ></a>
   {% endif %}
+  </div>
+  
   <div class="post-content">
     {{ content }}
   </div>
