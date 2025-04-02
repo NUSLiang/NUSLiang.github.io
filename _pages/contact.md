@@ -10,7 +10,7 @@ nav_order: 5
 ---
 <div class="bigspacer"></div>
 
-We are currently hiring new group members to join! Please check the following information.
+We will start welcoming new group members to join soon!
 
 We have positions for graduate students and postdoc fellows.
 
