@@ -1,132 +1,145 @@
 ---
 layout: default
 ---
-
 <style>
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .image_container {
       display: flex;
       flex-direction: column !important;
       align-items: flex-start;
       color: #949494;
       column-gap: 50px;
+    }
+    .image_container img {
+      width: 100% !important;
+    }
+    .image_container div {
+      margin: 20px auto;
+      text-align: center;
+    }
+    .post_container {
+      flex-direction: column !important;
+    }
+    .sidebar {
+      border-top: 1px solid;
+      padding-top: 20px;
+      border-bottom: 1px solid;
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+    }
   }
-.image_container img {
-    width: 100% !important;
-}
-.image_container div{
-  margin: 20px auto;
-  text-align: center;
-}
-.post_container{
-  flex-direction: column !important;
-}
-.sidebar{
-  border-top: 1px solid;
-  padding-top: 20px;
-  border-bottom: 1px solid;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-}
-}
-@media screen and (min-width: 768px) {
-  .image_container{
+  @media screen and (min-width: 768px) {
+    .image_container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      color: #949494;
+      column-gap: 50px;
+    }
+    .image_container img {
+      width: 200px;
+    }
+    .sidebar {
+      text-align: left;
+      flex: 15%;
+    }
+    .post_container {
+      flex-direction: row;
+    }
+  }
+  .post_container {
     display: flex;
-    flex-direction: row;
-    align-items:flex-start;
-    color: #949494;
-    column-gap: 50px;
+    max-width: 930px;
+    margin-top: 25px;
   }
-  .image_container img{
-    width: 200px;
-  }
-  .sidebar{
-    text-align: left;
-    flex: 15%;
-  }
-  .post_container{
-    flex-direction: row;
-  }
-}
-.post_container{
-  display: flex;
-  max-width: 930px;
-  margin-top: 25px;
-}
 
-  .image_container h2{
+  .image_container h2 {
     font-size: 40px;
   }
-  .image_container h4{
+  .image_container h4 {
     font-size: 17px;
     color: #a8a8a8;
   }
-  .image_container img{
+  .image_container img {
     width: 200px;
   }
-  .post_container{
+  .post_container {
     display: flex;
     max-width: 930px;
     flex-direction: row;
     margin-top: 25px;
   }
-  .sidebar{
+  .sidebar {
     text-align: left;
     flex: 15%;
   }
-  .sidebar h3{
+  .sidebar h3 {
     font-size: larger;
   }
-  .post-content{
+  .post-content {
     flex: 60%;
   }
 </style>
 
-    <div class="image_container">
-      <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
-      <div>
-        <h2>{{ page.name }}</h2>
-        <h4>{{ page.position }}</h4>
-      </div>
-    </div>
-    <div class="post_container">
-      <div class="sidebar">  
-        {% if page.cv %}
-        <h3>CV</h3>
-        <a href="{{page.cv | absolute_url }}" target="_blank" rel="noopener noreferrer" download><i class="fas fa-file-pdf"></i> <span>   </span>{{ page.name}} <span> </span></a>
-        <br>
-        <br>
-        {% endif %}
-        {% if page.scholar %}
-        <h3>Google Scholar</h3>
-        <a href="https://scholar.google.com/citations?user={{page.scholar}}" target="_blank" rel="noopener noreferrer"><i class="fas fa-school"></i>  {{ page.name }}</a>
-        <br>
-        <br>
-        {% endif %}
-        {% if page.github %}
-        <h3>Github</h3>
-        <a href="https://github.com/{{ page.github }}" target="_blank" rel="noopener no-referrer"><i class="fab fa-github"></i>  {{ page.github }}</a>
-        <br>
-        <br>
-      {% endif %}
-        {% if page.twitter %}
-        <h3>Twitter X</h3>
-        <a href="https://x.com/{{ page.twitter }}" target="_blank"><i class="fab fa-twitter"></i><span>  </span>@{{ page.twitter}}</a>
-        {% endif %}
-        <br>
-        <br>
-        {% if page.orcid %}
-        <h3>Orcid</h3>
-        <a href="https://orcid.org/{{ page.orcid }}"><i class="fab fa-orcid"></i>  {{ page.orcid }}</a>
-        <br>
-        <br>
-        {% endif %}
-        {% if page.email %}
-        <h3>Email</h3>
-        <a href="mailto:{{ page.email }}"><i class="fas fa-inbox"></i> {{ page.email }}</a>
-        {% endif %}
-      </div>
-      <div class="post-content">  
-        {{ content }}
-      </div>
-    </div>
+<div class="image_container">
+  <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+  <div>
+    <h2>{{ page.name }}</h2>
+    <h4>{{ page.position }}</h4>
+  </div>
+</div>
+<div class="post_container">
+  <div class="sidebar">
+    {% if page.cv %}
+      <h3>CV</h3>
+      <a href="{{page.cv | absolute_url }}" target="_blank" rel="noopener noreferrer" download
+        ><i class="fas fa-file-pdf"></i> <span> </span>{{ page.name }}
+        <span> </span
+      ></a>
+      <br>
+      <br>
+    {% endif %}
+    {% if page.scholar %}
+      <h3>Google Scholar</h3>
+      <a href="https://scholar.google.com/citations?user={{page.scholar}}" target="_blank" rel="noopener noreferrer"
+        ><i class="fas fa-school"></i> {{ page.name -}}
+      </a>
+      <br>
+      <br>
+    {% endif %}
+    {% if page.github %}
+      <h3>Github</h3>
+      <a href="https://github.com/{{ page.github }}" target="_blank" rel="noopener no-referrer"><i class="fab fa-github"></i> {{ page.github }}</a>
+      <br>
+      <br>
+    {% endif %}
+    {% if page.twitter %}
+      <h3>Twitter X</h3>
+      <a href="https://x.com/{{ page.twitter }}" target="_blank"><i class="fab fa-twitter"></i><span> </span>@{{ page.twitter }}</a>
+    {% endif %}
+    <br>
+    <br>
+    {% if page.orcid %}
+      <h3>Orcid</h3>
+      <a href="https://orcid.org/{{ page.orcid }}"><i class="fab fa-orcid"></i> {{ page.orcid }}</a>
+      <br>
+      <br>
+    {% endif %}
+    {% if page.email %}
+      <h3>Email</h3>
+      <a href="mailto:{{ page.email }}"><i class="fas fa-inbox"></i> {{ page.email }}</a>
+      <br>
+      <br>
+    {% endif %}
+  </div>
+  {% if page.supplementary %}
+    <h3>Supplementary</h3>
+    <a href="{{page.supplementary | absolute_url }}" target="_blank" rel="noopener noreferrer" download
+      ><i class="fas fa-sticky-note"></i> <span> </span>{{ page.name }}
+      <span> </span
+    ></a>
+  {% endif %}
+  <div class="post-content">
+    {{ content }}
+  </div>
+</div>

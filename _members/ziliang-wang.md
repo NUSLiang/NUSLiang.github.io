@@ -12,6 +12,7 @@ twitter: "Ziliang_W" # change the username
 website: "https://nusliang.github.io"
 scholar: "2uSFOxgAAAAJ&hl=en&oi=ao"
 rank: 1
+supplementary: assets/img/cv/CV_RP_TP_Pub_Ziliang.pdf
 ---
 
 I obtained my bachelor's degree in physics at [University of Chinese Academy of Sciences](https://www.ucas.ac.cn).
